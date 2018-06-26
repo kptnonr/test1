@@ -79,8 +79,8 @@ namespace test_uygulamasi
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Website", "Opening web site 'http://google.com/' with browser 'chrome' in normal mode.", new RecordItemIndex(0));
-            Host.Current.OpenBrowser("http://google.com/", "chrome", "", false, false, false, false, false);
+            Report.Log(ReportLevel.Info, "Website", "Opening web site 'http://facebook.com/' with browser 'chrome' in normal mode.", new RecordItemIndex(0));
+            Host.Current.OpenBrowser("http://facebook.com/", "chrome", "", false, false, false, false, false);
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'GoogleGoogleChrome.AddressAndSearchBar' at 168;3.", repo.GoogleGoogleChrome.AddressAndSearchBarInfo, new RecordItemIndex(1));
