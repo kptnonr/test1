@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc
+rxversion="8.1">
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="test_uygulamasi"
+      id="617a4444-e197-4acf-a2a2-93d7260ff9db"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="test_uygulamasi"
+      id="617a4444-e197-4acf-a2a2-93d7260ff9db"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

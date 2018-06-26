@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectGuid>{7B707939-8014-4BE6-A20C-BF06017AF526}</ProjectGuid>
+    <TargetFrameworkProfile />
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>test_uygulamasi</RootNamespace>
+    <AssemblyName>test_uygulamasi</AssemblyName>
+    <RanorexVersion>8.1</RanorexVersion>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <RanorexTargetsPath>$(MSBuildProgramFiles32)\MSBuild\Ranorex$(RanorexVersion)\Ranorex.MSBuild.Targets</RanorexTargetsPath>
+    <projectdefaultrepository>1d5dfdec-5b2c-4fc8-89c6-4c345f72ab0e</projectdefaultrepository>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>True</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Ranorex.Bootstrapper">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core.Resolver">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Cef">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.ChromeWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.FirefoxWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Flex">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Java">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Mobile">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Msaa">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Office">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Qt">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.RawText">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Sap">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Uia">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Web">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WebDriver">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Win32">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WinForms">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Wpf">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <id>1f0b9301-78be-4e1e-8fb2-f138fa77d1ac</id>
+    </Compile>
+    <Compile Include="Program.cs">
+      <id>fffef78b-ef0d-4ca6-a76a-b235e8accfbf</id>
+    </Compile>
+    <Compile Include="Recording1.cs">
+      <BoundTo>7639ac24-ec24-433f-b8b4-de2086efbe57</BoundTo>
+      <DependentUpon>Recording1.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>2783bde3-67f8-4f01-8d25-c546dc638f4a</id>
+    </Compile>
+    <Compile Include="Recording1.UserCode.cs">
+      <BoundTo>7639ac24-ec24-433f-b8b4-de2086efbe57</BoundTo>
+      <DependentUpon>Recording1.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>69beee15-8a0d-4e66-b1bf-6fae731336d3</id>
+    </Compile>
+    <Compile Include="test_uygulamasiRepository.cs">
+      <BoundTo>1d5dfdec-5b2c-4fc8-89c6-4c345f72ab0e</BoundTo>
+      <DependentUpon>test_uygulamasiRepository.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>34bfaee0-c7b3-435d-bcb6-0fee333f35a4</id>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <id>fed39044-644a-402a-9cf0-7b580c57a393</id>
+    </None>
+    <None Include="Recording1.rxrec">
+      <BoundTo>1d5dfdec-5b2c-4fc8-89c6-4c345f72ab0e</BoundTo>
+      <id>7639ac24-ec24-433f-b8b4-de2086efbe57</id>
+      <recordtableid>973aaab2-8d39-44bc-a7c7-b7e8a6f1512b</recordtableid>
+    </None>
+    <None Include="test_uygulamasiRepository.rximg">
+      <BoundTo>1d5dfdec-5b2c-4fc8-89c6-4c345f72ab0e</BoundTo>
+      <DependentUpon>test_uygulamasiRepository.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>63752d80-dff7-4ef8-a22a-534675010dcd</id>
+    </None>
+    <None Include="test_uygulamasiRepository.rxrep">
+      <id>1d5dfdec-5b2c-4fc8-89c6-4c345f72ab0e</id>
+      <repoid>d55b05ef-9062-4119-a0fc-25b239a44879</repoid>
+      <reporootid>30033c29-b9a4-49eb-ac65-41b772e80d7b</reporootid>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="test_uygulamasi.rxtmg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>737ed96b-03e3-44c6-bfe9-63dbac4d6757</id>
+    </Content>
+    <Content Include="test_uygulamasi.rxtst">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>4807a9c1-f7ac-4fe0-bc5d-68054cf05fa0</id>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(RanorexTargetsPath)" Condition="Exists('$(RanorexTargetsPath)')" />
+</Project>
