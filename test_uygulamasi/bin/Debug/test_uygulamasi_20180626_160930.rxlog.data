@@ -1,0 +1,413 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="328b0d20ce84b80"
+		totalerrorcount="1"
+		totalwarningcount="2"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="1"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="1"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="1"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="onuru"
+		rxversion="8.1.2.0"
+		host="USTUNAYMSI"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="tr-TR"
+		dtnlanguage="en-US"
+		screenresolution="2732x768"
+		timestamp="6/26/2018 4:09:30 PM"
+		timestampiso="2018-06-26T13:09:30"
+		endtime="6/26/2018 4:10:09 PM"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="38.37s"
+			durationms="38369"
+			type="test-suite"
+			rid="18000a1c66006ba4"
+			totalerrorcount="1"
+			totalwarningcount="2"
+			totalsuccesstestcasecount="0"
+			totalfailedtestcasecount="1"
+			totalblockedtestcasecount="0"
+			childsuccesscount="0"
+			childfailedcount="1"
+			childblockedcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="1"
+			totalblockedcount="0"
+			totalmaintenancemodecount="0"
+			testsuitename="test_uygulamasi"
+			headertext="test_uygulamasi"
+			runconfigname="TestRun"
+			runlabel="">
+			<params>
+			</params>
+			<activity
+				result="Failed"
+				duration="38.34s"
+				durationms="38338"
+				type="test-case"
+				rid="58031497e7d6bc6"
+				totalerrorcount="1"
+				totalwarningcount="2"
+				totalsuccesstestcasecount="0"
+				totalfailedtestcasecount="1"
+				totalblockedtestcasecount="0"
+				childsuccesscount="0"
+				childfailedcount="1"
+				childblockedcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="1"
+				totalblockedcount="0"
+				totalmaintenancemodecount="0"
+				testcontainername="TestCase"
+				testcontainerid="3661e67f-8b07-4504-b27a-0ebfabb0f4c7"
+				headertext="TestCase"
+				displayName="TestCase"
+				iteration="1"
+				activity-exectype="execute"
+				conditionstate="none">
+				<activity
+					result="Failed"
+					duration="38.33s"
+					durationms="38331"
+					type="test-module"
+					rid="8b381062929e64a"
+					totalerrorcount="1"
+					totalwarningcount="2"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					modulename="Recording1"
+					displayName="Recording1"
+					moduleid="973aaab2-8d39-44bc-a7c7-b7e8a6f1512b"
+					moduletype="Recording"
+					iteration="1"
+					activity-exectype="execute"
+					testentry-activity-type="testmodule">
+					<errormessage>
+						Failed to find item 'test_uygulamasiRepository.SoftEtherVPNClientManager.ButtonYes'.
+					</errormessage>
+					<varbindings>
+					</varbindings>
+					<item
+						timeRelativeToTestSuiteStartTime="00:00.526"
+						timeRelativeToTestModuleStartTime="00:00.015"
+						timeWallClock="16:09:30"
+						time="00:00.526"
+						level="Info"
+						category="Application">
+						<message>
+							Run application 'C:\Program Files\SoftEther VPN Client\vpncmgr.exe' with arguments '' in normal mode.
+						</message>
+						<metainfo
+							itemindex="0"
+							codefile="C:\Users\onuru\Documents\Ranorex\RanorexStudio Projects\test_uygulamasi\test_uygulamasi\Recording1.cs"
+							codeline="82"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:00.852"
+						timeRelativeToTestModuleStartTime="00:00.340"
+						timeWallClock="16:09:31"
+						time="00:00.852"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'SoftEtherVPNClientManager.Edit' at 21;13.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title~'^SoftEther\ VPN\ Client\ Mana']/?/?/menuitem[@accessiblename='Edit']"
+							itempath="?/?/menuitem[@accessiblename='Edit']"
+							fullname="test_uygulamasiRepository.SoftEtherVPNClientManager.Edit"
+							id="218760d47a8a4b9b8b5789e5e4771930"
+							timeout="60000"
+							codefile="C:\Users\onuru\Documents\Ranorex\RanorexStudio Projects\test_uygulamasi\test_uygulamasi\Recording1.cs"
+							codeline="86"
+							itemindex="1"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:01.220"
+						timeRelativeToTestModuleStartTime="00:00.709"
+						timeWallClock="16:09:31"
+						time="00:01.220"
+						level="Warn"
+						category="Win32">
+						<message>
+							The automating process does not have the required security permissions to access the process 'Monitor'. UI element identification capabilities for controls in that process are limited.<br/>Process: 'Monitor' (pid 10024)<br/>The following website provides more information on this technology limitation:<br/>https://www.ranorex.com/help/v8.1/technology-instrumentation/general-troubleshooting#GeneralTroubleshooting-Win32BasedApplications<br/>(This message is only shown once per report.)
+						</message>
+						<metainfo
+							limitationName="ProcessPermissions"
+							showInProgressDialog="False"
+							codefile="C:\Users\onuru\Documents\Ranorex\RanorexStudio Projects\test_uygulamasi\test_uygulamasi\Recording1.cs"
+							codeline="87"
+							loglvl="Warn"
+							itemindex="1">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:01.436"
+						timeRelativeToTestModuleStartTime="00:00.925"
+						timeWallClock="16:09:31"
+						time="00:01.436"
+						level="Warn"
+						category="WinForms">
+						<message>
+							Failed to load the assemblies containing the definition of this control. UI element identification capabilities for this control are limited. Failed assemblies:<br/>C:\Program Files (x86)\SCM\SCM.exe<br/>Process: 'SCM' (pid 4832)<br/>The following website provides more information on this technology limitation:<br/>https://www.ranorex.com/help/v8.1/technology-instrumentation/general-troubleshooting#GeneralTroubleshooting-.NETWinForms<br/>(This message is only shown once per report.)
+						</message>
+						<metainfo
+							limitationName="WinFormsResolving"
+							showInProgressDialog="False"
+							codefile="C:\Users\onuru\Documents\Ranorex\RanorexStudio Projects\test_uygulamasi\test_uygulamasi\Recording1.cs"
+							codeline="87"
+							loglvl="Warn"
+							itemindex="1">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:02.623"
+						timeRelativeToTestModuleStartTime="00:02.112"
+						timeWallClock="16:09:33"
+						time="00:02.623"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Vpncmgr.SelectAllCtrlPlusA' at 22;18.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/contextmenu[@processname='vpncmgr']/?/?/menuitem[@accessiblename='Select AllCtrl+A']"
+							itempath="?/?/menuitem[@accessiblename='Select AllCtrl+A']"
+							fullname="test_uygulamasiRepository.Vpncmgr.SelectAllCtrlPlusA"
+							id="e3b8c211ade844599b12145b621ef98d"
+							timeout="60000"
+							codefile="C:\Users\onuru\Documents\Ranorex\RanorexStudio Projects\test_uygulamasi\test_uygulamasi\Recording1.cs"
+							codeline="90"
+							itemindex="2"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:03.526"
+						timeRelativeToTestModuleStartTime="00:03.014"
+						timeWallClock="16:09:33"
+						time="00:03.526"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'SoftEtherVPNClientManager.Tools' at 16;6.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title~'^SoftEther\ VPN\ Client\ Mana']/?/?/menuitem[@accessiblename='Tools']"
+							itempath="?/?/menuitem[@accessiblename='Tools']"
+							fullname="test_uygulamasiRepository.SoftEtherVPNClientManager.Tools"
+							id="5bb15057ccf04c9cb34849f5456b3993"
+							timeout="60000"
+							codefile="C:\Users\onuru\Documents\Ranorex\RanorexStudio Projects\test_uygulamasi\test_uygulamasi\Recording1.cs"
+							codeline="94"
+							itemindex="3"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:04.327"
+						timeRelativeToTestModuleStartTime="00:03.816"
+						timeWallClock="16:09:34"
+						time="00:04.327"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Vpncmgr.OptionsCtrlPlusO' at 49;12.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/contextmenu[@processname='vpncmgr']/?/?/menuitem[@accessiblename='Options...Ctrl+O']"
+							itempath="?/?/menuitem[@accessiblename='Options...Ctrl+O']"
+							fullname="test_uygulamasiRepository.Vpncmgr.OptionsCtrlPlusO"
+							id="ab53dac60b714af4a37bdac198464c8b"
+							timeout="60000"
+							codefile="C:\Users\onuru\Documents\Ranorex\RanorexStudio Projects\test_uygulamasi\test_uygulamasi\Recording1.cs"
+							codeline="98"
+							itemindex="4"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:05.214"
+						timeRelativeToTestModuleStartTime="00:04.703"
+						timeWallClock="16:09:35"
+						time="00:05.214"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'OptionalSettings.AllowRemoteManagementOfVPNClientSe' at 16;7.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Optional Settings']/checkbox[@text~'^Allow\ &amp;Remote\ Management\ ']"
+							itempath="checkbox[@text~'^Allow\ &amp;Remote\ Management\ ']"
+							fullname="test_uygulamasiRepository.OptionalSettings.AllowRemoteManagementOfVPNClientSe"
+							id="f36924c11ab84a5998c72f0e2a069ebd"
+							timeout="60000"
+							codefile="C:\Users\onuru\Documents\Ranorex\RanorexStudio Projects\test_uygulamasi\test_uygulamasi\Recording1.cs"
+							codeline="102"
+							itemindex="5"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:06.101"
+						timeRelativeToTestModuleStartTime="00:05.590"
+						timeWallClock="16:09:36"
+						time="00:06.101"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'OptionalSettings.Cancel' at 52;5.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Optional Settings']/button[@text='Cancel']"
+							itempath="button[@text='Cancel']"
+							fullname="test_uygulamasiRepository.OptionalSettings.Cancel"
+							id="1fd125d1d68f4664b315abaa26df568d"
+							timeout="60000"
+							codefile="C:\Users\onuru\Documents\Ranorex\RanorexStudio Projects\test_uygulamasi\test_uygulamasi\Recording1.cs"
+							codeline="106"
+							itemindex="6"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:06.904"
+						timeRelativeToTestModuleStartTime="00:06.392"
+						timeWallClock="16:09:37"
+						time="00:06.904"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'SoftEtherVPNClientManager.Connect' at 35;12.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title~'^SoftEther\ VPN\ Client\ Mana']/?/?/menuitem[@accessiblename='Connect']"
+							itempath="?/?/menuitem[@accessiblename='Connect']"
+							fullname="test_uygulamasiRepository.SoftEtherVPNClientManager.Connect"
+							id="92a25965ab2f4b249302250d05c6de7f"
+							timeout="60000"
+							codefile="C:\Users\onuru\Documents\Ranorex\RanorexStudio Projects\test_uygulamasi\test_uygulamasi\Recording1.cs"
+							codeline="110"
+							itemindex="7"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:07.716"
+						timeRelativeToTestModuleStartTime="00:07.204"
+						timeWallClock="16:09:38"
+						time="00:07.716"
+						level="Info"
+						category="Mouse"
+						errimg="images_test_uyg_c4ae854d\test_uyg_c4ae854d_40c1db30_trace.jpg"
+						errthumb="images_test_uyg_c4ae854d\test_uyg_c4ae854d_40c1db30_trace_thumb.jpg">
+						<message>
+							Mouse Left Click item 'Vpncmgr.ExitConnectionManagerProgramAltPlusQ' at 48;12.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/contextmenu[@processname='vpncmgr']/?/?/menuitem[@accessiblename~'^Exit\ Connection\ Manager\ P']"
+							itempath="?/?/menuitem[@accessiblename~'^Exit\ Connection\ Manager\ P']"
+							fullname="test_uygulamasiRepository.Vpncmgr.ExitConnectionManagerProgramAltPlusQ"
+							id="e7d88215c99245d2a8643742b5cf22b2"
+							timeout="60000"
+							codefile="C:\Users\onuru\Documents\Ranorex\RanorexStudio Projects\test_uygulamasi\test_uygulamasi\Recording1.cs"
+							codeline="114"
+							itemindex="8"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:08.608"
+						timeRelativeToTestModuleStartTime="00:08.097"
+						timeWallClock="16:09:38"
+						time="00:08.608"
+						level="Info"
+						category="Mouse"
+						errimg="images_test_uyg_c4ae854d\test_uyg_c4ae854d_81144cd9_trace.jpg"
+						errthumb="images_test_uyg_c4ae854d\test_uyg_c4ae854d_81144cd9_trace_thumb.jpg">
+						<message>
+							Mouse Left Click item 'SoftEtherVPNClientManager.ButtonYes' at 48;15.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title~'^SoftEther\ VPN\ Client\ Mana']/button[@text='&amp;Yes']"
+							itempath="button[@text='&amp;Yes']"
+							fullname="test_uygulamasiRepository.SoftEtherVPNClientManager.ButtonYes"
+							id="2459ac20fb8649f8a1d613167ba7a6e3"
+							timeout="60000"
+							codefile="C:\Users\onuru\Documents\Ranorex\RanorexStudio Projects\test_uygulamasi\test_uygulamasi\Recording1.cs"
+							codeline="118"
+							itemindex="9"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:38.737"
+						timeRelativeToTestModuleStartTime="00:38.225"
+						timeWallClock="16:10:09"
+						time="00:38.737"
+						level="Error"
+						category="Module"
+						errimg="images_test_uyg_c4ae854d\test_uyg_c4ae854d_42f18afd_trace.jpg"
+						errthumb="images_test_uyg_c4ae854d\test_uyg_c4ae854d_42f18afd_trace_thumb.jpg">
+						<message>
+							Failed to find item 'test_uygulamasiRepository.SoftEtherVPNClientManager.ButtonYes'.<br/>No element found for path 'button[@text='&amp;Yes']' within 30s.
+						</message>
+						<metainfo
+							stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.&lt;>c__DisplayClass75_0`1.&lt;Find>b__0()&#13;&#10;   at Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)&#13;&#10;   at test_uygulamasi.test_uygulamasiRepositoryFolders.SoftEtherVPNClientManagerAppFolder.get_ButtonYes() in C:\Users\onuru\Documents\Ranorex\RanorexStudio Projects\test_uygulamasi\test_uygulamasi\test_uygulamasiRepository.cs:line 231&#13;&#10;   at test_uygulamasi.Recording1.Ranorex.Core.Testing.ITestModule.Run() in C:\Users\onuru\Documents\Ranorex\RanorexStudio Projects\test_uygulamasi\test_uygulamasi\Recording1.cs:line 119&#13;&#10;   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+							codefile="C:\Users\onuru\Documents\Ranorex\RanorexStudio Projects\test_uygulamasi\test_uygulamasi\Recording1.cs"
+							codeline="119"
+							type="repoitem"
+							path="/form[@title~'^SoftEther\ VPN\ Client\ Mana']/button[@text='&amp;Yes']"
+							itempath="button[@text='&amp;Yes']"
+							fullname="test_uygulamasiRepository.SoftEtherVPNClientManager.ButtonYes"
+							id="2459ac20fb8649f8a1d613167ba7a6e3"
+							timeout="60000"
+							loglvl="Error"
+							itemindex="9">
+						</metainfo>
+					</item>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>
