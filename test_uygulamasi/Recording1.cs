@@ -83,22 +83,6 @@ namespace test_uygulamasi
             Host.Current.OpenBrowser("http://google.com/", "chrome", "", false, false, false, false, false);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'GoogleGoogleChrome.Element1246513264' at 560;335.", repo.GoogleGoogleChrome.Element1246513264Info, new RecordItemIndex(1));
-            repo.GoogleGoogleChrome.Element1246513264.Click("560;335");
-            Delay.Milliseconds(200);
-            
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'onur üstünay' with focus on 'GoogleGoogleChrome'.", repo.GoogleGoogleChrome.SelfInfo, new RecordItemIndex(2));
-            repo.GoogleGoogleChrome.Self.PressKeys("onur üstünay");
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Return}' with focus on 'GoogleGoogleChrome'.", repo.GoogleGoogleChrome.SelfInfo, new RecordItemIndex(3));
-            repo.GoogleGoogleChrome.Self.PressKeys("{Return}");
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'GoogleGoogleChrome.Element1246513264' at 317;188.", repo.GoogleGoogleChrome.Element1246513264Info, new RecordItemIndex(4));
-            repo.GoogleGoogleChrome.Element1246513264.Click("317;188");
-            Delay.Milliseconds(200);
-            
         }
 
 #region Image Feature Data
