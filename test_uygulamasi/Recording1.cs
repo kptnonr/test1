@@ -79,44 +79,24 @@ namespace test_uygulamasi
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Application", "Run application 'C:\\Program Files\\SoftEther VPN Client\\vpncmgr.exe' with arguments '' in normal mode.", new RecordItemIndex(0));
-            Host.Local.RunApplication("C:\\Program Files\\SoftEther VPN Client\\vpncmgr.exe", "", "C:\\Program Files\\SoftEther VPN Client", false);
+            Report.Log(ReportLevel.Info, "Website", "Opening web site 'http://google.com/' with browser 'chrome' in normal mode.", new RecordItemIndex(0));
+            Host.Current.OpenBrowser("http://google.com/", "chrome", "", false, false, false, false, false);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SoftEtherVPNClientManager.Edit' at 21;13.", repo.SoftEtherVPNClientManager.EditInfo, new RecordItemIndex(1));
-            repo.SoftEtherVPNClientManager.Edit.Click("21;13");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'GoogleGoogleChrome.Element1246513264' at 560;335.", repo.GoogleGoogleChrome.Element1246513264Info, new RecordItemIndex(1));
+            repo.GoogleGoogleChrome.Element1246513264.Click("560;335");
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Vpncmgr.SelectAllCtrlPlusA' at 22;18.", repo.Vpncmgr.SelectAllCtrlPlusAInfo, new RecordItemIndex(2));
-            repo.Vpncmgr.SelectAllCtrlPlusA.Click("22;18");
-            Delay.Milliseconds(200);
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'onur üstünay' with focus on 'GoogleGoogleChrome'.", repo.GoogleGoogleChrome.SelfInfo, new RecordItemIndex(2));
+            repo.GoogleGoogleChrome.Self.PressKeys("onur üstünay");
+            Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SoftEtherVPNClientManager.Tools' at 16;6.", repo.SoftEtherVPNClientManager.ToolsInfo, new RecordItemIndex(3));
-            repo.SoftEtherVPNClientManager.Tools.Click("16;6");
-            Delay.Milliseconds(200);
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Return}' with focus on 'GoogleGoogleChrome'.", repo.GoogleGoogleChrome.SelfInfo, new RecordItemIndex(3));
+            repo.GoogleGoogleChrome.Self.PressKeys("{Return}");
+            Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Vpncmgr.OptionsCtrlPlusO' at 49;12.", repo.Vpncmgr.OptionsCtrlPlusOInfo, new RecordItemIndex(4));
-            repo.Vpncmgr.OptionsCtrlPlusO.Click("49;12");
-            Delay.Milliseconds(200);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OptionalSettings.AllowRemoteManagementOfVPNClientSe' at 16;7.", repo.OptionalSettings.AllowRemoteManagementOfVPNClientSeInfo, new RecordItemIndex(5));
-            repo.OptionalSettings.AllowRemoteManagementOfVPNClientSe.Click("16;7");
-            Delay.Milliseconds(200);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OptionalSettings.Cancel' at 52;5.", repo.OptionalSettings.CancelInfo, new RecordItemIndex(6));
-            repo.OptionalSettings.Cancel.Click("52;5");
-            Delay.Milliseconds(200);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SoftEtherVPNClientManager.Connect' at 35;12.", repo.SoftEtherVPNClientManager.ConnectInfo, new RecordItemIndex(7));
-            repo.SoftEtherVPNClientManager.Connect.Click("35;12");
-            Delay.Milliseconds(200);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Vpncmgr.ExitConnectionManagerProgramAltPlusQ' at 48;12.", repo.Vpncmgr.ExitConnectionManagerProgramAltPlusQInfo, new RecordItemIndex(8));
-            repo.Vpncmgr.ExitConnectionManagerProgramAltPlusQ.Click("48;12");
-            Delay.Milliseconds(200);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SoftEtherVPNClientManager.ButtonYes' at 48;15.", repo.SoftEtherVPNClientManager.ButtonYesInfo, new RecordItemIndex(9));
-            repo.SoftEtherVPNClientManager.ButtonYes.Click("48;15");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'GoogleGoogleChrome.Element1246513264' at 317;188.", repo.GoogleGoogleChrome.Element1246513264Info, new RecordItemIndex(4));
+            repo.GoogleGoogleChrome.Element1246513264.Click("317;188");
             Delay.Milliseconds(200);
             
         }

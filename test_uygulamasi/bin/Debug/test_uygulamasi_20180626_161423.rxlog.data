@@ -1,0 +1,302 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="21.25s"
+		durationms="21245"
+		type="root"
+		rid="af0a7de7c8443d5"
+		totalerrorcount="1"
+		totalwarningcount="2"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="1"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="1"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="1"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="onuru"
+		rxversion="8.1.2.0"
+		host="USTUNAYMSI"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="tr-TR"
+		dtnlanguage="en-US"
+		screenresolution="2732x768"
+		timestamp="6/26/2018 4:14:23 PM"
+		timestampiso="2018-06-26T13:14:23"
+		endtime="6/26/2018 4:14:44 PM"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="20.99s"
+			durationms="20992"
+			type="test-suite"
+			rid="38279200b47e5"
+			totalerrorcount="1"
+			totalwarningcount="2"
+			totalsuccesstestcasecount="0"
+			totalfailedtestcasecount="1"
+			totalblockedtestcasecount="0"
+			childsuccesscount="0"
+			childfailedcount="1"
+			childblockedcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="1"
+			totalblockedcount="0"
+			totalmaintenancemodecount="0"
+			testsuitename="test_uygulamasi"
+			headertext="test_uygulamasi"
+			runconfigname="TestRun"
+			runlabel="">
+			<params>
+			</params>
+			<activity
+				result="Failed"
+				duration="20.98s"
+				durationms="20976"
+				type="test-case"
+				rid="172399e2c5900a"
+				totalerrorcount="1"
+				totalwarningcount="2"
+				totalsuccesstestcasecount="0"
+				totalfailedtestcasecount="1"
+				totalblockedtestcasecount="0"
+				childsuccesscount="0"
+				childfailedcount="1"
+				childblockedcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="1"
+				totalblockedcount="0"
+				totalmaintenancemodecount="0"
+				testcontainername="TestCase"
+				testcontainerid="3661e67f-8b07-4504-b27a-0ebfabb0f4c7"
+				headertext="TestCase"
+				displayName="TestCase"
+				iteration="1"
+				activity-exectype="execute"
+				conditionstate="none">
+				<activity
+					result="Failed"
+					duration="20.94s"
+					durationms="20939"
+					type="test-module"
+					rid="21c98816814bd674"
+					totalerrorcount="1"
+					totalwarningcount="2"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					modulename="Recording1"
+					displayName="Recording1"
+					moduleid="973aaab2-8d39-44bc-a7c7-b7e8a6f1512b"
+					moduletype="Recording"
+					iteration="1"
+					activity-exectype="execute"
+					testentry-activity-type="testmodule">
+					<varbindings>
+					</varbindings>
+					<item
+						timeRelativeToTestSuiteStartTime="00:00.567"
+						timeRelativeToTestModuleStartTime="00:00.015"
+						timeWallClock="16:14:23"
+						time="00:00.567"
+						level="Info"
+						category="Website">
+						<message>
+							Opening web site 'http://opensource.demo.orangehrmlive.com/' with browser 'chrome' in normal mode.
+						</message>
+						<metainfo
+							itemindex="0"
+							codefile="C:\Users\onuru\Documents\Ranorex\RanorexStudio Projects\test_uygulamasi\test_uygulamasi\Recording1.cs"
+							codeline="82"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:00.927"
+						timeRelativeToTestModuleStartTime="00:00.375"
+						timeWallClock="16:14:24"
+						time="00:00.927"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'HRManagementSystemOrangeHRMLHRMa.AddressAndSearchBar' at 199;17.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title~'^HR\ Management\ System\ \|\ Or']/container[@accessiblename~'^HR\ Management\ System\ \|\ Or']/container[@accessiblename='Google Chrome']/container[2]/container[2]/container[@accessiblerole='Client']/container[1]/text[@accessiblename='Address and search bar']"
+							itempath="container[@accessiblename~'^HR\ Management\ System\ \|\ Or']/container[@accessiblename='Google Chrome']/container[2]/container[2]/container[@accessiblerole='Client']/container[1]/text[@accessiblename='Address and search bar']"
+							fullname="test_uygulamasiRepository.HRManagementSystemOrangeHRMLHRMa.AddressAndSearchBar"
+							id="837d643df4fe48bbb63faeab81521cec"
+							timeout="60000"
+							codefile="C:\Users\onuru\Documents\Ranorex\RanorexStudio Projects\test_uygulamasi\test_uygulamasi\Recording1.cs"
+							codeline="86"
+							itemindex="1"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:01.356"
+						timeRelativeToTestModuleStartTime="00:00.803"
+						timeWallClock="16:14:24"
+						time="00:01.356"
+						level="Warn"
+						category="Win32">
+						<message>
+							The automating process does not have the required security permissions to access the process 'Monitor'. UI element identification capabilities for controls in that process are limited.<br/>Process: 'Monitor' (pid 10024)<br/>The following website provides more information on this technology limitation:<br/>https://www.ranorex.com/help/v8.1/technology-instrumentation/general-troubleshooting#GeneralTroubleshooting-Win32BasedApplications<br/>(This message is only shown once per report.)
+						</message>
+						<metainfo
+							limitationName="ProcessPermissions"
+							showInProgressDialog="False"
+							codefile="C:\Users\onuru\Documents\Ranorex\RanorexStudio Projects\test_uygulamasi\test_uygulamasi\Recording1.cs"
+							codeline="87"
+							loglvl="Warn"
+							itemindex="1">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:01.568"
+						timeRelativeToTestModuleStartTime="00:01.016"
+						timeWallClock="16:14:24"
+						time="00:01.568"
+						level="Warn"
+						category="WinForms">
+						<message>
+							Failed to load the assemblies containing the definition of this control. UI element identification capabilities for this control are limited. Failed assemblies:<br/>C:\Program Files (x86)\SCM\SCM.exe<br/>Process: 'SCM' (pid 4832)<br/>The following website provides more information on this technology limitation:<br/>https://www.ranorex.com/help/v8.1/technology-instrumentation/general-troubleshooting#GeneralTroubleshooting-.NETWinForms<br/>(This message is only shown once per report.)
+						</message>
+						<metainfo
+							limitationName="WinFormsResolving"
+							showInProgressDialog="False"
+							codefile="C:\Users\onuru\Documents\Ranorex\RanorexStudio Projects\test_uygulamasi\test_uygulamasi\Recording1.cs"
+							codeline="87"
+							loglvl="Warn"
+							itemindex="1">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:04.467"
+						timeRelativeToTestModuleStartTime="00:03.914"
+						timeWallClock="16:14:27"
+						time="00:04.467"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence 'onur' with focus on 'HRManagementSystemOrangeHRMLHRMa.AddressAndSearchBar'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title~'^HR\ Management\ System\ \|\ Or']/container[@accessiblename~'^HR\ Management\ System\ \|\ Or']/container[@accessiblename='Google Chrome']/container[2]/container[2]/container[@accessiblerole='Client']/container[1]/text[@accessiblename='Address and search bar']"
+							itempath="container[@accessiblename~'^HR\ Management\ System\ \|\ Or']/container[@accessiblename='Google Chrome']/container[2]/container[2]/container[@accessiblerole='Client']/container[1]/text[@accessiblename='Address and search bar']"
+							fullname="test_uygulamasiRepository.HRManagementSystemOrangeHRMLHRMa.AddressAndSearchBar"
+							id="837d643df4fe48bbb63faeab81521cec"
+							timeout="60000"
+							codefile="C:\Users\onuru\Documents\Ranorex\RanorexStudio Projects\test_uygulamasi\test_uygulamasi\Recording1.cs"
+							codeline="90"
+							itemindex="2"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:05.104"
+						timeRelativeToTestModuleStartTime="00:04.552"
+						timeWallClock="16:14:28"
+						time="00:05.104"
+						level="Info"
+						category="Keyboard"
+						errimg="images_test_uyg_5f59f9f3\test_uyg_5f59f9f3_6cb71c12_trace.jpg"
+						errthumb="images_test_uyg_5f59f9f3\test_uyg_5f59f9f3_6cb71c12_trace_thumb.jpg">
+						<message>
+							Key sequence 'ustunay.com{Return}' with focus on 'HRManagementSystemOrangeHRMLHRMa.AddressAndSearchBar'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title~'^HR\ Management\ System\ \|\ Or']/container[@accessiblename~'^HR\ Management\ System\ \|\ Or']/container[@accessiblename='Google Chrome']/container[2]/container[2]/container[@accessiblerole='Client']/container[1]/text[@accessiblename='Address and search bar']"
+							itempath="container[@accessiblename~'^HR\ Management\ System\ \|\ Or']/container[@accessiblename='Google Chrome']/container[2]/container[2]/container[@accessiblerole='Client']/container[1]/text[@accessiblename='Address and search bar']"
+							fullname="test_uygulamasiRepository.HRManagementSystemOrangeHRMLHRMa.AddressAndSearchBar"
+							id="837d643df4fe48bbb63faeab81521cec"
+							timeout="60000"
+							codefile="C:\Users\onuru\Documents\Ranorex\RanorexStudio Projects\test_uygulamasi\test_uygulamasi\Recording1.cs"
+							codeline="94"
+							itemindex="3"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:06.523"
+						timeRelativeToTestModuleStartTime="00:05.971"
+						timeWallClock="16:14:29"
+						time="00:06.523"
+						level="Info"
+						category="Mouse"
+						errimg="images_test_uyg_5f59f9f3\test_uyg_5f59f9f3_0fd54f0e_trace.jpg"
+						errthumb="images_test_uyg_5f59f9f3\test_uyg_5f59f9f3_0fd54f0e_trace_thumb.jpg">
+						<message>
+							Mouse scroll Vertical by -600 units.
+						</message>
+						<metainfo
+							itemindex="4"
+							codefile="C:\Users\onuru\Documents\Ranorex\RanorexStudio Projects\test_uygulamasi\test_uygulamasi\Recording1.cs"
+							codeline="98"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:07.077"
+						timeRelativeToTestModuleStartTime="00:06.525"
+						timeWallClock="16:14:30"
+						time="00:07.077"
+						level="Info"
+						category="Mouse"
+						errimg="images_test_uyg_5f59f9f3\test_uyg_5f59f9f3_40de6018_trace.jpg"
+						errthumb="images_test_uyg_5f59f9f3\test_uyg_5f59f9f3_40de6018_trace_thumb.jpg">
+						<message>
+							Mouse Left Down item 'HRManagementSystemOrangeHRMLHRMa.Element1390983776' at 805;451.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title~'^HR\ Management\ System\ \|\ Or']/element[@controlid='-1390983776']"
+							itempath="element[@controlid='-1390983776']"
+							fullname="test_uygulamasiRepository.HRManagementSystemOrangeHRMLHRMa.Element1390983776"
+							id="7b163c49266a4007ab8c7af2844896b1"
+							timeout="60000"
+							codefile="C:\Users\onuru\Documents\Ranorex\RanorexStudio Projects\test_uygulamasi\test_uygulamasi\Recording1.cs"
+							codeline="102"
+							itemindex="5"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:21.245"
+						timeRelativeToTestModuleStartTime="00:20.693"
+						timeWallClock="16:14:44"
+						time="00:21.245"
+						level="Error"
+						category="Module">
+						<message>
+							The test run has been aborted by the user.
+						</message>
+						<metainfo
+							loglvl="Error">
+						</metainfo>
+					</item>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

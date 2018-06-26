@@ -27,9 +27,7 @@ namespace test_uygulamasi
     public partial class test_uygulamasiRepository : RepoGenBaseFolder
     {
         static test_uygulamasiRepository instance = new test_uygulamasiRepository();
-        test_uygulamasiRepositoryFolders.SoftEtherVPNClientManagerAppFolder _softethervpnclientmanager;
-        test_uygulamasiRepositoryFolders.VpncmgrAppFolder _vpncmgr;
-        test_uygulamasiRepositoryFolders.OptionalSettingsAppFolder _optionalsettings;
+        test_uygulamasiRepositoryFolders.GoogleGoogleChromeAppFolder _googlegooglechrome;
 
         /// <summary>
         /// Gets the singleton class instance representing the test_uygulamasiRepository element repository.
@@ -46,9 +44,7 @@ namespace test_uygulamasi
         public test_uygulamasiRepository() 
             : base("test_uygulamasiRepository", "/", null, 0, false, "30033c29-b9a4-49eb-ac65-41b772e80d7b", ".\\RepositoryImages\\test_uygulamasiRepository30033c29.rximgres")
         {
-            _softethervpnclientmanager = new test_uygulamasiRepositoryFolders.SoftEtherVPNClientManagerAppFolder(this);
-            _vpncmgr = new test_uygulamasiRepositoryFolders.VpncmgrAppFolder(this);
-            _optionalsettings = new test_uygulamasiRepositoryFolders.OptionalSettingsAppFolder(this);
+            _googlegooglechrome = new test_uygulamasiRepositoryFolders.GoogleGoogleChromeAppFolder(this);
         }
 
 #region Variables
@@ -68,30 +64,12 @@ namespace test_uygulamasi
         }
 
         /// <summary>
-        /// The SoftEtherVPNClientManager folder.
+        /// The GoogleGoogleChrome folder.
         /// </summary>
-        [RepositoryFolder("fa31d04b-0ca4-46d4-9b21-fa3d936d7b1b")]
-        public virtual test_uygulamasiRepositoryFolders.SoftEtherVPNClientManagerAppFolder SoftEtherVPNClientManager
+        [RepositoryFolder("6dc50128-def1-48cc-916b-f7cb1047796e")]
+        public virtual test_uygulamasiRepositoryFolders.GoogleGoogleChromeAppFolder GoogleGoogleChrome
         {
-            get { return _softethervpnclientmanager; }
-        }
-
-        /// <summary>
-        /// The Vpncmgr folder.
-        /// </summary>
-        [RepositoryFolder("13efc33d-1bc1-4460-a80c-fa2051e6f05c")]
-        public virtual test_uygulamasiRepositoryFolders.VpncmgrAppFolder Vpncmgr
-        {
-            get { return _vpncmgr; }
-        }
-
-        /// <summary>
-        /// The OptionalSettings folder.
-        /// </summary>
-        [RepositoryFolder("fd1b309c-b44f-44c7-b6bb-d98f6b869774")]
-        public virtual test_uygulamasiRepositoryFolders.OptionalSettingsAppFolder OptionalSettings
-        {
-            get { return _optionalsettings; }
+            get { return _googlegooglechrome; }
         }
     }
 
@@ -102,32 +80,26 @@ namespace test_uygulamasi
     public partial class test_uygulamasiRepositoryFolders
     {
         /// <summary>
-        /// The SoftEtherVPNClientManagerAppFolder folder.
+        /// The GoogleGoogleChromeAppFolder folder.
         /// </summary>
-        [RepositoryFolder("fa31d04b-0ca4-46d4-9b21-fa3d936d7b1b")]
-        public partial class SoftEtherVPNClientManagerAppFolder : RepoGenBaseFolder
+        [RepositoryFolder("6dc50128-def1-48cc-916b-f7cb1047796e")]
+        public partial class GoogleGoogleChromeAppFolder : RepoGenBaseFolder
         {
-            RepoItemInfo _editInfo;
-            RepoItemInfo _toolsInfo;
-            RepoItemInfo _connectInfo;
-            RepoItemInfo _buttonyesInfo;
+            RepoItemInfo _element1246513264Info;
 
             /// <summary>
-            /// Creates a new SoftEtherVPNClientManager  folder.
+            /// Creates a new GoogleGoogleChrome  folder.
             /// </summary>
-            public SoftEtherVPNClientManagerAppFolder(RepoGenBaseFolder parentFolder) :
-                    base("SoftEtherVPNClientManager", "/form[@title~'^SoftEther\\ VPN\\ Client\\ Mana']", parentFolder, 30000, null, true, "fa31d04b-0ca4-46d4-9b21-fa3d936d7b1b", "")
+            public GoogleGoogleChromeAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("GoogleGoogleChrome", "/form[@title='Google - Google Chrome']", parentFolder, 30000, null, true, "6dc50128-def1-48cc-916b-f7cb1047796e", "")
             {
-                _editInfo = new RepoItemInfo(this, "Edit", "?/?/menuitem[@accessiblename='Edit']", 30000, null, "218760d4-7a8a-4b9b-8b57-89e5e4771930");
-                _toolsInfo = new RepoItemInfo(this, "Tools", "?/?/menuitem[@accessiblename='Tools']", 30000, null, "5bb15057-ccf0-4c9c-b348-49f5456b3993");
-                _connectInfo = new RepoItemInfo(this, "Connect", "?/?/menuitem[@accessiblename='Connect']", 30000, null, "92a25965-ab2f-4b24-9302-250d05c6de7f");
-                _buttonyesInfo = new RepoItemInfo(this, "ButtonYes", "button[@text='&Yes']", 30000, null, "2459ac20-fb86-49f8-a1d6-13167ba7a6e3");
+                _element1246513264Info = new RepoItemInfo(this, "Element1246513264", "element[@controlid='-1246513264']", 30000, null, "8e5d8de2-78fd-4b89-b1d0-8e543a431d1c");
             }
 
             /// <summary>
             /// The Self item.
             /// </summary>
-            [RepositoryItem("fa31d04b-0ca4-46d4-9b21-fa3d936d7b1b")]
+            [RepositoryItem("6dc50128-def1-48cc-916b-f7cb1047796e")]
             public virtual Ranorex.Form Self
             {
                 get
@@ -139,7 +111,7 @@ namespace test_uygulamasi
             /// <summary>
             /// The Self item info.
             /// </summary>
-            [RepositoryItemInfo("fa31d04b-0ca4-46d4-9b21-fa3d936d7b1b")]
+            [RepositoryItemInfo("6dc50128-def1-48cc-916b-f7cb1047796e")]
             public virtual RepoItemInfo SelfInfo
             {
                 get
@@ -149,308 +121,26 @@ namespace test_uygulamasi
             }
 
             /// <summary>
-            /// The Edit item.
+            /// The Element1246513264 item.
             /// </summary>
-            [RepositoryItem("218760d4-7a8a-4b9b-8b57-89e5e4771930")]
-            public virtual Ranorex.MenuItem Edit
+            [RepositoryItem("8e5d8de2-78fd-4b89-b1d0-8e543a431d1c")]
+            public virtual Ranorex.Unknown Element1246513264
             {
                 get
                 {
-                    return _editInfo.CreateAdapter<Ranorex.MenuItem>(true);
+                    return _element1246513264Info.CreateAdapter<Ranorex.Unknown>(true);
                 }
             }
 
             /// <summary>
-            /// The Edit item info.
+            /// The Element1246513264 item info.
             /// </summary>
-            [RepositoryItemInfo("218760d4-7a8a-4b9b-8b57-89e5e4771930")]
-            public virtual RepoItemInfo EditInfo
+            [RepositoryItemInfo("8e5d8de2-78fd-4b89-b1d0-8e543a431d1c")]
+            public virtual RepoItemInfo Element1246513264Info
             {
                 get
                 {
-                    return _editInfo;
-                }
-            }
-
-            /// <summary>
-            /// The Tools item.
-            /// </summary>
-            [RepositoryItem("5bb15057-ccf0-4c9c-b348-49f5456b3993")]
-            public virtual Ranorex.MenuItem Tools
-            {
-                get
-                {
-                    return _toolsInfo.CreateAdapter<Ranorex.MenuItem>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Tools item info.
-            /// </summary>
-            [RepositoryItemInfo("5bb15057-ccf0-4c9c-b348-49f5456b3993")]
-            public virtual RepoItemInfo ToolsInfo
-            {
-                get
-                {
-                    return _toolsInfo;
-                }
-            }
-
-            /// <summary>
-            /// The Connect item.
-            /// </summary>
-            [RepositoryItem("92a25965-ab2f-4b24-9302-250d05c6de7f")]
-            public virtual Ranorex.MenuItem Connect
-            {
-                get
-                {
-                    return _connectInfo.CreateAdapter<Ranorex.MenuItem>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Connect item info.
-            /// </summary>
-            [RepositoryItemInfo("92a25965-ab2f-4b24-9302-250d05c6de7f")]
-            public virtual RepoItemInfo ConnectInfo
-            {
-                get
-                {
-                    return _connectInfo;
-                }
-            }
-
-            /// <summary>
-            /// The ButtonYes item.
-            /// </summary>
-            [RepositoryItem("2459ac20-fb86-49f8-a1d6-13167ba7a6e3")]
-            public virtual Ranorex.Button ButtonYes
-            {
-                get
-                {
-                    return _buttonyesInfo.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The ButtonYes item info.
-            /// </summary>
-            [RepositoryItemInfo("2459ac20-fb86-49f8-a1d6-13167ba7a6e3")]
-            public virtual RepoItemInfo ButtonYesInfo
-            {
-                get
-                {
-                    return _buttonyesInfo;
-                }
-            }
-        }
-
-        /// <summary>
-        /// The VpncmgrAppFolder folder.
-        /// </summary>
-        [RepositoryFolder("13efc33d-1bc1-4460-a80c-fa2051e6f05c")]
-        public partial class VpncmgrAppFolder : RepoGenBaseFolder
-        {
-            RepoItemInfo _selectallctrlplusaInfo;
-            RepoItemInfo _optionsctrlplusoInfo;
-            RepoItemInfo _exitconnectionmanagerprogramaltplusqInfo;
-
-            /// <summary>
-            /// Creates a new Vpncmgr  folder.
-            /// </summary>
-            public VpncmgrAppFolder(RepoGenBaseFolder parentFolder) :
-                    base("Vpncmgr", "/contextmenu[@processname='vpncmgr']", parentFolder, 30000, null, false, "13efc33d-1bc1-4460-a80c-fa2051e6f05c", "")
-            {
-                _selectallctrlplusaInfo = new RepoItemInfo(this, "SelectAllCtrlPlusA", "?/?/menuitem[@accessiblename='Select AllCtrl+A']", 30000, null, "e3b8c211-ade8-4459-9b12-145b621ef98d");
-                _optionsctrlplusoInfo = new RepoItemInfo(this, "OptionsCtrlPlusO", "?/?/menuitem[@accessiblename='Options...Ctrl+O']", 30000, null, "ab53dac6-0b71-4af4-a37b-dac198464c8b");
-                _exitconnectionmanagerprogramaltplusqInfo = new RepoItemInfo(this, "ExitConnectionManagerProgramAltPlusQ", "?/?/menuitem[@accessiblename~'^Exit\\ Connection\\ Manager\\ P']", 30000, null, "e7d88215-c992-45d2-a864-3742b5cf22b2");
-            }
-
-            /// <summary>
-            /// The Self item.
-            /// </summary>
-            [RepositoryItem("13efc33d-1bc1-4460-a80c-fa2051e6f05c")]
-            public virtual Ranorex.ContextMenu Self
-            {
-                get
-                {
-                    return _selfInfo.CreateAdapter<Ranorex.ContextMenu>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Self item info.
-            /// </summary>
-            [RepositoryItemInfo("13efc33d-1bc1-4460-a80c-fa2051e6f05c")]
-            public virtual RepoItemInfo SelfInfo
-            {
-                get
-                {
-                    return _selfInfo;
-                }
-            }
-
-            /// <summary>
-            /// The SelectAllCtrlPlusA item.
-            /// </summary>
-            [RepositoryItem("e3b8c211-ade8-4459-9b12-145b621ef98d")]
-            public virtual Ranorex.MenuItem SelectAllCtrlPlusA
-            {
-                get
-                {
-                    return _selectallctrlplusaInfo.CreateAdapter<Ranorex.MenuItem>(true);
-                }
-            }
-
-            /// <summary>
-            /// The SelectAllCtrlPlusA item info.
-            /// </summary>
-            [RepositoryItemInfo("e3b8c211-ade8-4459-9b12-145b621ef98d")]
-            public virtual RepoItemInfo SelectAllCtrlPlusAInfo
-            {
-                get
-                {
-                    return _selectallctrlplusaInfo;
-                }
-            }
-
-            /// <summary>
-            /// The OptionsCtrlPlusO item.
-            /// </summary>
-            [RepositoryItem("ab53dac6-0b71-4af4-a37b-dac198464c8b")]
-            public virtual Ranorex.MenuItem OptionsCtrlPlusO
-            {
-                get
-                {
-                    return _optionsctrlplusoInfo.CreateAdapter<Ranorex.MenuItem>(true);
-                }
-            }
-
-            /// <summary>
-            /// The OptionsCtrlPlusO item info.
-            /// </summary>
-            [RepositoryItemInfo("ab53dac6-0b71-4af4-a37b-dac198464c8b")]
-            public virtual RepoItemInfo OptionsCtrlPlusOInfo
-            {
-                get
-                {
-                    return _optionsctrlplusoInfo;
-                }
-            }
-
-            /// <summary>
-            /// The ExitConnectionManagerProgramAltPlusQ item.
-            /// </summary>
-            [RepositoryItem("e7d88215-c992-45d2-a864-3742b5cf22b2")]
-            public virtual Ranorex.MenuItem ExitConnectionManagerProgramAltPlusQ
-            {
-                get
-                {
-                    return _exitconnectionmanagerprogramaltplusqInfo.CreateAdapter<Ranorex.MenuItem>(true);
-                }
-            }
-
-            /// <summary>
-            /// The ExitConnectionManagerProgramAltPlusQ item info.
-            /// </summary>
-            [RepositoryItemInfo("e7d88215-c992-45d2-a864-3742b5cf22b2")]
-            public virtual RepoItemInfo ExitConnectionManagerProgramAltPlusQInfo
-            {
-                get
-                {
-                    return _exitconnectionmanagerprogramaltplusqInfo;
-                }
-            }
-        }
-
-        /// <summary>
-        /// The OptionalSettingsAppFolder folder.
-        /// </summary>
-        [RepositoryFolder("fd1b309c-b44f-44c7-b6bb-d98f6b869774")]
-        public partial class OptionalSettingsAppFolder : RepoGenBaseFolder
-        {
-            RepoItemInfo _allowremotemanagementofvpnclientseInfo;
-            RepoItemInfo _cancelInfo;
-
-            /// <summary>
-            /// Creates a new OptionalSettings  folder.
-            /// </summary>
-            public OptionalSettingsAppFolder(RepoGenBaseFolder parentFolder) :
-                    base("OptionalSettings", "/form[@title='Optional Settings']", parentFolder, 30000, null, true, "fd1b309c-b44f-44c7-b6bb-d98f6b869774", "")
-            {
-                _allowremotemanagementofvpnclientseInfo = new RepoItemInfo(this, "AllowRemoteManagementOfVPNClientSe", "checkbox[@text~'^Allow\\ &Remote\\ Management\\ ']", 30000, null, "f36924c1-1ab8-4a59-98c7-2f0e2a069ebd");
-                _cancelInfo = new RepoItemInfo(this, "Cancel", "button[@text='Cancel']", 30000, null, "1fd125d1-d68f-4664-b315-abaa26df568d");
-            }
-
-            /// <summary>
-            /// The Self item.
-            /// </summary>
-            [RepositoryItem("fd1b309c-b44f-44c7-b6bb-d98f6b869774")]
-            public virtual Ranorex.Form Self
-            {
-                get
-                {
-                    return _selfInfo.CreateAdapter<Ranorex.Form>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Self item info.
-            /// </summary>
-            [RepositoryItemInfo("fd1b309c-b44f-44c7-b6bb-d98f6b869774")]
-            public virtual RepoItemInfo SelfInfo
-            {
-                get
-                {
-                    return _selfInfo;
-                }
-            }
-
-            /// <summary>
-            /// The AllowRemoteManagementOfVPNClientSe item.
-            /// </summary>
-            [RepositoryItem("f36924c1-1ab8-4a59-98c7-2f0e2a069ebd")]
-            public virtual Ranorex.CheckBox AllowRemoteManagementOfVPNClientSe
-            {
-                get
-                {
-                    return _allowremotemanagementofvpnclientseInfo.CreateAdapter<Ranorex.CheckBox>(true);
-                }
-            }
-
-            /// <summary>
-            /// The AllowRemoteManagementOfVPNClientSe item info.
-            /// </summary>
-            [RepositoryItemInfo("f36924c1-1ab8-4a59-98c7-2f0e2a069ebd")]
-            public virtual RepoItemInfo AllowRemoteManagementOfVPNClientSeInfo
-            {
-                get
-                {
-                    return _allowremotemanagementofvpnclientseInfo;
-                }
-            }
-
-            /// <summary>
-            /// The Cancel item.
-            /// </summary>
-            [RepositoryItem("1fd125d1-d68f-4664-b315-abaa26df568d")]
-            public virtual Ranorex.Button Cancel
-            {
-                get
-                {
-                    return _cancelInfo.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Cancel item info.
-            /// </summary>
-            [RepositoryItemInfo("1fd125d1-d68f-4664-b315-abaa26df568d")]
-            public virtual RepoItemInfo CancelInfo
-            {
-                get
-                {
-                    return _cancelInfo;
+                    return _element1246513264Info;
                 }
             }
         }
