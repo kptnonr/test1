@@ -83,6 +83,27 @@ namespace test_uygulamasi
             Host.Current.OpenBrowser("http://google.com/", "chrome", "", false, false, false, false, false);
             Delay.Milliseconds(0);
             
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'GoogleGoogleChrome.AddressAndSearchBar' at 168;3.", repo.GoogleGoogleChrome.AddressAndSearchBarInfo, new RecordItemIndex(1));
+            repo.GoogleGoogleChrome.AddressAndSearchBar.Click("168;3");
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key 'Ctrl+A' Press with focus on 'GoogleGoogleChrome.AddressAndSearchBar'.", repo.GoogleGoogleChrome.AddressAndSearchBarInfo, new RecordItemIndex(2));
+            Keyboard.PrepareFocus(repo.GoogleGoogleChrome.AddressAndSearchBar);
+            Keyboard.Press(System.Windows.Forms.Keys.A | System.Windows.Forms.Keys.Control, 30, Keyboard.DefaultKeyPressTime, 1, true);
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Back}onur' with focus on 'GoogleGoogleChrome.AddressAndSearchBar'.", repo.GoogleGoogleChrome.AddressAndSearchBarInfo, new RecordItemIndex(3));
+            repo.GoogleGoogleChrome.AddressAndSearchBar.PressKeys("{Back}onur");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'ustunay.com' with focus on 'GoogleGoogleChrome.AddressAndSearchBar'.", repo.GoogleGoogleChrome.AddressAndSearchBarInfo, new RecordItemIndex(4));
+            repo.GoogleGoogleChrome.AddressAndSearchBar.PressKeys("ustunay.com");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Return}' with focus on 'GoogleGoogleChrome.AddressAndSearchBar'.", repo.GoogleGoogleChrome.AddressAndSearchBarInfo, new RecordItemIndex(5));
+            repo.GoogleGoogleChrome.AddressAndSearchBar.PressKeys("{Return}");
+            Delay.Milliseconds(0);
+            
         }
 
 #region Image Feature Data

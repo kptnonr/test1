@@ -33,6 +33,16 @@ rxversion="8.1">
 			searchtimeout="30000ms">
 				/form[@title='Google - Google Chrome']/element[@controlid='-1246513264']
 			</item>
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="f5972d28-f86f-4902-a2d0-11af88956957"
+			name="AddressAndSearchBar"
+			refimgid="2084026e-bd1e-49f9-a4a9-a32d24e190ab"
+			refpath="/form[@title='Google - Google Chrome']/container/container/container[2]/container[2]/container/container[1]/text[@accessiblename='Address and search bar']"
+			searchtimeout="30000ms">
+				/form[@title='Google - Google Chrome']/container[@accessiblename='Google - Google Chrome']/container[@accessiblename='Google Chrome']/container[2]/container[2]/container[@accessiblerole='Client']/container[1]/text[@accessiblename='Address and search bar']
+			</item>
 			<basepath>
 				/form[@title='Google - Google Chrome']
 			</basepath>

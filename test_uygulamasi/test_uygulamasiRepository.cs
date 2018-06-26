@@ -86,6 +86,7 @@ namespace test_uygulamasi
         public partial class GoogleGoogleChromeAppFolder : RepoGenBaseFolder
         {
             RepoItemInfo _element1246513264Info;
+            RepoItemInfo _addressandsearchbarInfo;
 
             /// <summary>
             /// Creates a new GoogleGoogleChrome  folder.
@@ -94,6 +95,7 @@ namespace test_uygulamasi
                     base("GoogleGoogleChrome", "/form[@title='Google - Google Chrome']", parentFolder, 30000, null, true, "6dc50128-def1-48cc-916b-f7cb1047796e", "")
             {
                 _element1246513264Info = new RepoItemInfo(this, "Element1246513264", "element[@controlid='-1246513264']", 30000, null, "8e5d8de2-78fd-4b89-b1d0-8e543a431d1c");
+                _addressandsearchbarInfo = new RepoItemInfo(this, "AddressAndSearchBar", "container[@accessiblename='Google - Google Chrome']/container[@accessiblename='Google Chrome']/container[2]/container[2]/container[@accessiblerole='Client']/container[1]/text[@accessiblename='Address and search bar']", 30000, null, "f5972d28-f86f-4902-a2d0-11af88956957");
             }
 
             /// <summary>
@@ -141,6 +143,30 @@ namespace test_uygulamasi
                 get
                 {
                     return _element1246513264Info;
+                }
+            }
+
+            /// <summary>
+            /// The AddressAndSearchBar item.
+            /// </summary>
+            [RepositoryItem("f5972d28-f86f-4902-a2d0-11af88956957")]
+            public virtual Ranorex.Text AddressAndSearchBar
+            {
+                get
+                {
+                    return _addressandsearchbarInfo.CreateAdapter<Ranorex.Text>(true);
+                }
+            }
+
+            /// <summary>
+            /// The AddressAndSearchBar item info.
+            /// </summary>
+            [RepositoryItemInfo("f5972d28-f86f-4902-a2d0-11af88956957")]
+            public virtual RepoItemInfo AddressAndSearchBarInfo
+            {
+                get
+                {
+                    return _addressandsearchbarInfo;
                 }
             }
         }
