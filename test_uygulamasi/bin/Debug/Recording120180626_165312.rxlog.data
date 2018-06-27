@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="eaaa9124349bf00"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="onuru"
+		rxversion="8.1.2.0"
+		host="USTUNAYMSI"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="tr-TR"
+		dtnlanguage="en-US"
+		screenresolution="2732x768"
+		timestamp="6/26/2018 4:53:17 PM"
+		timestampiso="2018-06-26T13:53:17"
+		endtime="6/26/2018 4:53:17 PM"
+		timeoutfactor="1"
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.758"
+			timeRelativeToTestModuleStartTime="00:00.758"
+			timeWallClock="16:53:17"
+			time="00:00.758"
+			level="Info"
+			category="Website">
+			<message>
+				Opening web site 'http://google.com/' with browser 'chrome' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="C:\Users\onuru\Documents\Ranorex\RanorexStudio Projects\test_uygulamasi\test_uygulamasi\Recording1.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

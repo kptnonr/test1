@@ -151,8 +151,8 @@ namespace test_uygulamasi
             repo.OPTiiMWebApplicationGoogleChrome.Element730569856.Click("696;327");
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'adfasdf{LControlKey down}{RMenu down}{Qkey}{LControlKey up}{RMenu up}{LControlKey up}asdf.com' with focus on 'InsuranceWebAutomobileInstantQuote'.", repo.InsuranceWebAutomobileInstantQuoteInfo, new RecordItemIndex(18));
-            repo.InsuranceWebAutomobileInstantQuote.PressKeys("adfasdf{LControlKey down}{RMenu down}{Qkey}{LControlKey up}{RMenu up}{LControlKey up}asdf.com");
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'adfasddfdf{LControlKey down}{RMenu down}{Qkey}{LControlKey up}{RMenu up}{LControlKey up}asdf.com' with focus on 'InsuranceWebAutomobileInstantQuote'.", repo.InsuranceWebAutomobileInstantQuoteInfo, new RecordItemIndex(18));
+            repo.InsuranceWebAutomobileInstantQuote.PressKeys("adfasddfdf{LControlKey down}{RMenu down}{Qkey}{LControlKey up}{RMenu up}{LControlKey up}asdf.com");
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OPTiiMWebApplicationGoogleChrome.Element730569856' at 654;351.", repo.OPTiiMWebApplicationGoogleChrome.Element730569856Info, new RecordItemIndex(19));

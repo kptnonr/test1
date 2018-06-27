@@ -7295,7 +7295,7 @@ iiigAooooA//2Q==
 			</helperscreenshot>
 		</mouseitem>
 		<keysequenceitem
-		KeySequence="adfasdf{LControlKey down}{RMenu down}{Qkey}{LControlKey up}{RMenu up}{LControlKey up}asdf.com"
+		KeySequence="adfasddfdf{LControlKey down}{RMenu down}{Qkey}{LControlKey up}{RMenu up}{LControlKey up}asdf.com"
 		duration="100ms"
 		enabled="True"
 		optional="False"

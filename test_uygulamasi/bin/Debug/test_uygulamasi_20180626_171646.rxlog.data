@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="248bce92dd2a6056"
+		totalerrorcount="1"
+		totalwarningcount="2"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="1"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="1"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="1"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="onuru"
+		rxversion="8.1.2.0"
+		host="USTUNAYMSI"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="tr-TR"
+		dtnlanguage="en-US"
+		screenresolution="1366x768"
+		timestamp="6/26/2018 5:16:46 PM"
+		timestampiso="2018-06-26T14:16:46"
+		endtime="6/26/2018 5:17:48 PM"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="1m"
+			durationms="60913"
+			type="test-suite"
+			rid="a29665772eda08d"
+			totalerrorcount="1"
+			totalwarningcount="2"
+			totalsuccesstestcasecount="0"
+			totalfailedtestcasecount="1"
+			totalblockedtestcasecount="0"
+			childsuccesscount="0"
+			childfailedcount="1"
+			childblockedcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="1"
+			totalblockedcount="0"
+			totalmaintenancemodecount="0"
+			testsuitename="test_uygulamasi"
+			headertext="test_uygulamasi"
+			runconfigname="TestRun"
+			runlabel="">
+			<params>
+			</params>
+			<activity
+				result="Failed"
+				duration="1m"
+				durationms="60882"
+				type="test-case"
+				rid="2b2ad845c04bb6c0"
+				totalerrorcount="1"
+				totalwarningcount="2"
+				totalsuccesstestcasecount="0"
+				totalfailedtestcasecount="1"
+				totalblockedtestcasecount="0"
+				childsuccesscount="0"
+				childfailedcount="1"
+				childblockedcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="1"
+				totalblockedcount="0"
+				totalmaintenancemodecount="0"
+				testcontainername="TestCase"
+				testcontainerid="3661e67f-8b07-4504-b27a-0ebfabb0f4c7"
+				headertext="TestCase"
+				displayName="TestCase"
+				iteration="1"
+				activity-exectype="execute"
+				conditionstate="none">
+				<activity
+					result="Failed"
+					duration="1m"
+					durationms="60851"
+					type="test-module"
+					rid="fcab43501d38a00"
+					totalerrorcount="1"
+					totalwarningcount="2"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					modulename="Recording1"
+					displayName="Recording1"
+					moduleid="973aaab2-8d39-44bc-a7c7-b7e8a6f1512b"
+					moduletype="Recording"
+					iteration="1"
+					activity-exectype="execute"
+					testentry-activity-type="testmodule">
+					<errormessage>
+						Failed to find item 'test_uygulamasiRepository.GoogleGoogleChrome.AddressAndSearchBar'.
+					</errormessage>
+					<varbindings>
+					</varbindings>
+					<item
+						timeRelativeToTestSuiteStartTime="00:00.719"
+						timeRelativeToTestModuleStartTime="00:00.019"
+						timeWallClock="17:16:47"
+						time="00:00.719"
+						level="Info"
+						category="Website">
+						<message>
+							Opening web site 'http://facebook.com/' with browser 'chrome' in normal mode.
+						</message>
+						<metainfo
+							itemindex="0"
+							codefile="C:\Users\onuru\Documents\Ranorex\RanorexStudio Projects\test_uygulamasi\test_uygulamasi\Recording1.cs"
+							codeline="82"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:01.177"
+						timeRelativeToTestModuleStartTime="00:00.477"
+						timeWallClock="17:16:48"
+						time="00:01.177"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'GoogleGoogleChrome.AddressAndSearchBar' at 168;3.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Google - Google Chrome']/container[@accessiblename='Google - Google Chrome']/container[@accessiblename='Google Chrome']/container[2]/container[2]/container[@accessiblerole='Client']/container[1]/text[@accessiblename='Address and search bar']"
+							itempath="container[@accessiblename='Google - Google Chrome']/container[@accessiblename='Google Chrome']/container[2]/container[2]/container[@accessiblerole='Client']/container[1]/text[@accessiblename='Address and search bar']"
+							fullname="test_uygulamasiRepository.GoogleGoogleChrome.AddressAndSearchBar"
+							id="f5972d28f86f4902a2d011af88956957"
+							timeout="60000"
+							codefile="C:\Users\onuru\Documents\Ranorex\RanorexStudio Projects\test_uygulamasi\test_uygulamasi\Recording1.cs"
+							codeline="86"
+							itemindex="1"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:02.493"
+						timeRelativeToTestModuleStartTime="00:01.793"
+						timeWallClock="17:16:49"
+						time="00:02.493"
+						level="Warn"
+						category="Win32"
+						errimg="images_test_uyg_8e3ef86f\test_uyg_8e3ef86f_02c0d5c5_trace.jpg"
+						errthumb="images_test_uyg_8e3ef86f\test_uyg_8e3ef86f_02c0d5c5_trace_thumb.jpg">
+						<message>
+							The automating process does not have the required security permissions to access the process 'Monitor'. UI element identification capabilities for controls in that process are limited.<br/>Process: 'Monitor' (pid 10024)<br/>The following website provides more information on this technology limitation:<br/>https://www.ranorex.com/help/v8.1/technology-instrumentation/general-troubleshooting#GeneralTroubleshooting-Win32BasedApplications<br/>(This message is only shown once per report.)
+						</message>
+						<metainfo
+							limitationName="ProcessPermissions"
+							showInProgressDialog="False"
+							codefile="C:\Users\onuru\Documents\Ranorex\RanorexStudio Projects\test_uygulamasi\test_uygulamasi\Recording1.cs"
+							codeline="87"
+							loglvl="Warn"
+							itemindex="1">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:02.873"
+						timeRelativeToTestModuleStartTime="00:02.173"
+						timeWallClock="17:16:49"
+						time="00:02.873"
+						level="Warn"
+						category="WinForms"
+						errimg="images_test_uyg_8e3ef86f\test_uyg_8e3ef86f_40f2838c_trace.jpg"
+						errthumb="images_test_uyg_8e3ef86f\test_uyg_8e3ef86f_40f2838c_trace_thumb.jpg">
+						<message>
+							Failed to load the assemblies containing the definition of this control. UI element identification capabilities for this control are limited. Failed assemblies:<br/>C:\Program Files (x86)\SCM\SCM.exe<br/>Process: 'SCM' (pid 4832)<br/>The following website provides more information on this technology limitation:<br/>https://www.ranorex.com/help/v8.1/technology-instrumentation/general-troubleshooting#GeneralTroubleshooting-.NETWinForms<br/>(This message is only shown once per report.)
+						</message>
+						<metainfo
+							limitationName="WinFormsResolving"
+							showInProgressDialog="False"
+							codefile="C:\Users\onuru\Documents\Ranorex\RanorexStudio Projects\test_uygulamasi\test_uygulamasi\Recording1.cs"
+							codeline="87"
+							loglvl="Warn"
+							itemindex="1">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:01.435"
+						timeRelativeToTestModuleStartTime="01:00.735"
+						timeWallClock="17:17:48"
+						time="01:01.435"
+						level="Error"
+						category="Module"
+						errimg="images_test_uyg_8e3ef86f\test_uyg_8e3ef86f_b1576ce6_trace.jpg"
+						errthumb="images_test_uyg_8e3ef86f\test_uyg_8e3ef86f_b1576ce6_trace_thumb.jpg">
+						<message>
+							Failed to find item 'test_uygulamasiRepository.GoogleGoogleChrome.AddressAndSearchBar'.<br/>No element found for path '/form[@title='Google - Google Chrome']/container[@accessiblename='Google - Google Chrome']/container[@accessiblename='Google Chrome']/container[2]/container[2]/container[@accessiblerole='Client']/container[1]/text[@accessiblename='Address and search bar']' within 1m.
+						</message>
+						<metainfo
+							stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.&lt;>c__DisplayClass75_0`1.&lt;Find>b__0()&#13;&#10;   at Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)&#13;&#10;   at test_uygulamasi.test_uygulamasiRepositoryFolders.GoogleGoogleChromeAppFolder.get_AddressAndSearchBar() in C:\Users\onuru\Documents\Ranorex\RanorexStudio Projects\test_uygulamasi\test_uygulamasi\test_uygulamasiRepository.cs:line 157&#13;&#10;   at test_uygulamasi.Recording1.Ranorex.Core.Testing.ITestModule.Run() in C:\Users\onuru\Documents\Ranorex\RanorexStudio Projects\test_uygulamasi\test_uygulamasi\Recording1.cs:line 87&#13;&#10;   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+							codefile="C:\Users\onuru\Documents\Ranorex\RanorexStudio Projects\test_uygulamasi\test_uygulamasi\Recording1.cs"
+							codeline="87"
+							type="repoitem"
+							path="/form[@title='Google - Google Chrome']/container[@accessiblename='Google - Google Chrome']/container[@accessiblename='Google Chrome']/container[2]/container[2]/container[@accessiblerole='Client']/container[1]/text[@accessiblename='Address and search bar']"
+							itempath="container[@accessiblename='Google - Google Chrome']/container[@accessiblename='Google Chrome']/container[2]/container[2]/container[@accessiblerole='Client']/container[1]/text[@accessiblename='Address and search bar']"
+							fullname="test_uygulamasiRepository.GoogleGoogleChrome.AddressAndSearchBar"
+							id="f5972d28f86f4902a2d011af88956957"
+							timeout="60000"
+							loglvl="Error"
+							itemindex="1">
+						</metainfo>
+					</item>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>
