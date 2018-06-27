@@ -63,6 +63,348 @@ hBSzKVmIzGvLy+2yr+Z66rDG4d6zaBnuxJWgD00PW5AYq1iXMU4eM0Q1i/rPZHdYnTlElHad3oAd
 AAAASUVORK5CYII=
 			</icon>
 		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="cac1134e-9696-4742-bc48-9e758b12b11e"
+		isrooted="True"
+		name="OPTiiMWebApplicationGoogleChrome"
+		refimgid="3d24be17-47e0-4f48-ae3c-2ce03a14895d"
+		refpath="/form[@title='OPTiiM | Web Application - Google Chrome']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="unknown,nativewindow"
+			capname="unknown"
+			id="fff3288d-cd86-48e0-939e-e3a952bcd2fe"
+			name="Element723846224"
+			refimgid="91258871-6ac4-44cf-b3c5-45d3ce78b0dd"
+			refpath="/form[@title~'^OPTiiM\ \|\ Web\ Application\ ']/element[@controlid='723846224']"
+			searchtimeout="30000ms">
+				/form[@title~'^OPTiiM\ \|\ Web\ Application\ ']/element[@controlid='723846224']
+			</item>
+			<item
+			addcaps="unknown,nativewindow"
+			capname="unknown"
+			id="2a6f7a83-0264-41d3-be00-9f6a0d2f86c1"
+			name="Element640029952"
+			refimgid="43caf036-6227-4a5c-9f72-a5473abebab1"
+			refpath="/form[@title~'^Sign\ in\ -\ Google\ Accounts']/element[@controlid='640029952']"
+			searchtimeout="30000ms">
+				/form[@title~'^OPTiiM\ \|\ Web\ Application\ ']/element[@controlid='640029952']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="302a948e-86b9-4ad8-b971-502c379830d0"
+			name="Close"
+			refimgid="993feb9b-a2f8-4e02-98d9-1d9d83d26965"
+			refpath="/form[@title~'^General\ Troubleshooting\ -']/container/container/container[2]/container[2]/tabpagelist/tabpage[@accessiblename~'^General\ Troubleshooting\ -']/button[@accessiblename='Close']"
+			searchtimeout="30000ms">
+				/form[@title~'^OPTiiM\ \|\ Web\ Application\ ']/container[@accessiblename~'^General\ Troubleshooting\ -']/container[@accessiblename='Google Chrome']//tabpage[@accessiblename~'^General\ Troubleshooting\ -']/button[@accessiblename='Close']
+			</item>
+			<item
+			addcaps="unknown,nativewindow"
+			capname="unknown"
+			id="077e3e81-5ae8-48b1-a3d2-a58d8a251ec7"
+			name="Element730569856"
+			refimgid="40c6557e-e06d-4b25-b650-8271c58293ba"
+			refpath="/form[@title~'^InsuranceWeb:\ Home\ -\ Goog']/element[@controlid='730569856']"
+			searchtimeout="30000ms">
+				/form[@title~'^OPTiiM\ \|\ Web\ Application\ ']/element[@controlid='730569856']
+			</item>
+			<basepath>
+				/form[@title~'^OPTiiM\ \|\ Web\ Application\ ']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAKFSURBVDhPrZJdSFNhHMaXQUFEBaZTZiV1EUQX
+FkRJ6c6m07lvdVPYlujSuygSlOiiEYSQfd10sZp2nFtiu7GPmyBtaoua86smltNzLKQIhGB5BurG
+eXrPOpqjj6se+PHe/H/P/+Xllfz3wCnJmDdrK5lazT3WrB5gK1XDbFWZn5znpk0lmeLYnzNjURWw
+NuMUEcFWl4NIYEylYIwlYAwKsCZljDGVOcTx9AyqC49EqlXfZ81EXCuoKksrYPQU5nQKzBmo86Im
+xunMuHDRvBDWyzEtCH+5AaMjBVo5ZrXFyXmNvEC0JZIDPU2Go676ZK+hCG/Jlg9k86duN16OLPDP
+wos8M/Ec8z4jvnhO4FvvcXB9hYg/LhoUdVLga3Ttf9CI2ktVGKo4CdbjxmU/B+PNOAwE25043s9E
+kQgokQwUIzlUhGSweBl+y+ZUQb6vsT/fdwYH6QbcqqEQGP26LutuEK7H0faIw3KkFXxICX5ECYQJ
+o7ptqYI8T31wr9eBfT4H9NfseBJegl4QRVlLaO3hsBK9CoyrCKWEEvBv1DtSBbKuur493gYICEWv
+J6dXKm//kjXtHPzBGJKRBlEuBT9GbhJVb00V5NL2Vll3PdZQP3ViILKIZi+HJvcSPIEYJibvp21P
+hBSzKVmIzGvLy+2yr+Z66rDG4d6zaBnuxJWgD00PW5AYq1iXMU4eM0Q1i/rPZHdYnTlElHad3oAd
+0rtWRF7o0uREiBrDlGWLqIqBZJO00+qS0nZkE1Egi7bBQRvAj5dvkBXv+AmlTLR+T1aH1ZLttkZ3
+01Zkumrw+ZVmWRBXR6jYSohqw5R8uzj67+ykjbuOtasKPvafOsSF5DnrnyYtEskPM43KINSheKEA
+AAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<item
+		addcaps="form,nativewindow"
+		capname="form"
+		id="0c584453-307a-4459-ad5a-e2037ad2e20f"
+		name="SignInGoogleAccountsGoogleChrom"
+		refimgid="cb30373e-4230-445f-9da8-463009658551"
+		searchtimeout="30000ms">
+			/form[@title~'^Sign\ in\ -\ Google\ Accounts']
+		</item>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="d4e4ab3f-4c68-44bd-be26-fb1609b75174"
+		isrooted="True"
+		name="InternetExplorer11"
+		refpath="/form[@title='Internet Explorer 11']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="radiobutton,nativewindow"
+			capname="radiobutton"
+			id="e98565d4-d3b1-4e02-a3ca-e2535abe8ba8"
+			name="RadioButtonDontUseRecommendedSettings"
+			refimgid="7c9a68e3-d838-4ae5-8596-a2e17cb2bd94"
+			refpath="/form[@title='Internet Explorer 11']/radiobutton[@text~'^&amp;Don’t\ use\ recommended\ se']"
+			searchtimeout="30000ms">
+				/form[@title='Internet Explorer 11']/radiobutton[@text~'^&amp;Don&#8217;t\ use\ recommended\ se']
+			</item>
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="cc4e37a9-d5ae-45b9-b451-9f02e9b89cf6"
+			name="ButtonOK"
+			refimgid="af3ed273-2639-4d85-afd3-33fed9f59c71"
+			refpath="/form[@title='Internet Explorer 11']/button[@text='&amp;OK']"
+			searchtimeout="30000ms">
+				/form[@title='Internet Explorer 11']/button[@text='&amp;OK']
+			</item>
+			<basepath>
+				/form[@title='Internet Explorer 11']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAOWSURBVDhPjZJtTFtVGMdPRUL8QIIouI63Dcmy
+bjayTRHJ5qYzum8m2+pm4qLZnNmbG6wtb6JlGwOHWjcC6DaivEx0hVEu1BXalW5tE14Lcy1Lh5S2
+t+1GSym03Aq94nm898IHv+kv+eec5Dz/5znPcw76L/IumeIDPYk588aEk/Rk/BQ1EEfN9/LocC/P
+FlShjNWwfyHTP72+WC0SntP8cqTppr1v+MMl3yMhTRkSIKSJXZrriqnxXEGHfTfQSX8zsq26Vkgq
+ILI2lmsN+5us7qbx6YjjiRjTngTwtSbizubD0ZKGBp9Apqpki7Dxj2vRDGdkSc5vz9wk09gK7vqi
+Gu8EDs++DdiOwNG6C4jf+6BiPAwf6bx4a5XRn3xKUSsSKWK8tahpxc1k3CjTmgr6ntBDfjNEZ4WA
++xGY5Hl/7b1mCu6QG70H26Zcn1sW6GP3/PiNOvN88um2euflmN2cP71YJdr705hb436A6YAAsB7B
+kDw3WK3Wvofx7bg14vaMdaVq6faaQfNZY5D+uNeLsy/esfPFym1cAuF59a8/Wx5GqNnXAQ8iePSt
+cBpj7QaAkVguYJXsC3fGjvXMTB3p88HO+pHptJKuq9zBnhrdhMv7KcYOBFbFIfig0YwF5Rp31he9
+ZCaj9WVqMqPkN/LlKqO7bIjCp4wB2NNijaRKiREuQedQNYW9z4Dr+haoG/dAlZ2GSkYXWU3SUMHo
+wh9ROD+xBDJLBI4bArC70bKUWqS0IvynYEfYvW452JKAax56oNy2iF/9bsDHVlyRimRmRKYXqci0
+wm4ytZAgU6Sd5FqJ0sk/e6sR/e1P/HpxGMGNxjPRMgsFktFIOLvS8IC72v9heRL1P26JCx/60eA9
+oHJiqXlhWaSwzQnO6dpeKOjIYZ/4OWln/POnFdvWijvaGTn4kg6Sv7IeRQt6XmiWiK3bXK7q31pt
+iHyi90Hh/YXlozpv6DW5yZVWTLg2yNTOvG8MjuO6mbn8wRB+v5uMpkuVo9yPDPXwguxNMiSKNS8W
+EbZcuZHaR7jwif45EI9FQHI/wq2fDYfhwG0Sv3N9dDGztMv+bH7bZq6FsIbX4mtGRez+rdKKlNyy
+awMvfaly5FTfndl+dSS6q9mK32wYpXZ+PxB4pUrrTCsk9EknbmZxZhbqHuL7W5HecxkBeQlN2r9C
+xVsk9fuYHn9gJj2YIrk1niJWdjP7K0ln2t9FMtlTq1YGhP4B4PYIf3slspsAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="562a4495-f75d-4ac3-8d6e-be176d98c1cf"
+		isrooted="True"
+		name="OPTiiMWebApplication"
+		refpath="/dom[@domain='izin.optiim.com']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<folder
+			capname="form"
+			id="5b18a0ca-febf-4670-a0c6-33ab27da62cd"
+			isrooted="True"
+			name="Form1"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="b1e80be0-1875-4532-bb69-00d7601f4411"
+				name="Tuemİzinler"
+				refimgid="b4d7b974-cace-40e2-85ed-f7c6ba5aec48"
+				refpath="/dom[@domain='izin.optiim.com']//form[#'form1']/div[3]/aside[1]/section/ul/li[3]/ul/li[1]/a/span[@innertext='Tüm İzinler']"
+				searchtimeout="30000ms">
+					/dom[@domain='izin.optiim.com']//form[#'form1']//section/ul/?/?/ul//span[@innertext='T&#252;m &#304;zinler']
+				</item>
+				<item
+				addcaps="unknown,webelement,atag"
+				capname="atag"
+				id="b0cd0345-9559-415d-a113-47364836e609"
+				name="HttpIzinOptiimComDashboardHash"
+				refimgid="0d458d16-9012-4433-8a87-653126d41267"
+				refpath="/dom[@domain='izin.optiim.com']//form[#'form1']/div[3]/aside[1]/section/ul/li[3]/a[@href~'^http://izin\.optiim\.com/Da']"
+				searchtimeout="30000ms">
+					/dom[@domain='izin.optiim.com']//form[#'form1']//section/ul/li[3]/a[@href~'^http://izin\.optiim\.com/Da']
+				</item>
+				<item
+				addcaps="unknown,webelement,atag"
+				capname="atag"
+				id="ee332e19-e719-478c-9a8e-8473be6372a4"
+				name="ATagSignInWithGoogle"
+				refimgid="0648a717-0230-4390-8bb9-ffb8cb691265"
+				refpath="/dom[@domain='izin.optiim.com']//form[#'form1']/div[3]/div[2]/div/div/a[@innertext=' Sign in with Google']"
+				searchtimeout="30000ms">
+					/dom[@domain='izin.optiim.com']//form[#'form1']/div[3]//a[@innertext=' Sign in with Google']
+				</item>
+				<basepath>
+					/dom[@domain='izin.optiim.com']//form[#'form1']
+				</basepath>
+			</folder>
+			<basepath>
+				/dom[@domain='izin.optiim.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="5af16a35-9361-4db1-8410-0984e1154c9b"
+		isrooted="True"
+		name="OturumAcınGoogleHesapları"
+		refpath="/dom[@domain='accounts.google.com']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="7bd6c4e7-98c9-4839-895a-637771c2a381"
+			name="IdentifierId"
+			refimgid="c7fbbfc7-7d1c-4518-b73a-5a150eb14ff2"
+			refpath="/dom[@domain='accounts.google.com']//input[#'identifierId']"
+			searchtimeout="30000ms">
+				/dom[@domain='accounts.google.com']//input[#'identifierId']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="da10a179-0404-4013-8fb9-d17ac410f794"
+			name="ZFr60dCeoRYc"
+			refimgid="e9cea1d5-558c-4bd9-b572-c1e712d6d101"
+			refpath="/dom[@domain='accounts.google.com']//div[#'identifierNext']/div[2]"
+			searchtimeout="30000ms">
+				/dom[@domain='accounts.google.com']//div[#'identifierNext']/div[2]
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="30c30002-5a59-41f0-adee-d4a2e23b817a"
+			name="İleri"
+			refimgid="34f54e81-7667-4f84-9a97-e092480daf99"
+			refpath="/dom[@domain='accounts.google.com']//div[#'passwordNext']/tag[@tagname='content']/span[@innertext='İleri']"
+			searchtimeout="30000ms">
+				/dom[@domain='accounts.google.com']//div[#'passwordNext']/?/?/span[@innertext='&#304;leri']
+			</item>
+			<basepath>
+				/dom[@domain='accounts.google.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<item
+		addcaps="form,nativewindow"
+		capname="form"
+		id="c4133ba1-dbbb-43ee-858e-bdbc0ef64898"
+		name="InsuranceWebHomeGoogleChrome"
+		refimgid="658b2658-a734-4743-9e45-84ab349e7ffc"
+		searchtimeout="30000ms">
+			/form[@title~'^InsuranceWeb:\ Home\ -\ Goog']
+		</item>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="e277a907-a6e4-4b81-9e27-cc97e2090d91"
+		isrooted="True"
+		name="DoYouWantGoogleSmartLockToSaveYo"
+		refpath="/form[@title='Do you want Google Smart Lock to save your password for this site?']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="04d8a19c-0ebe-4400-a34e-b6338d5609ec"
+			name="Never"
+			refimgid="e185ab74-d98f-4c5b-9f97-9dae2e460cd4"
+			refpath="/form[@title~'^Do\ you\ want\ Google\ Smart\ ']/element/container/container[2]/container[2]/button[@accessiblename='Never']"
+			searchtimeout="30000ms">
+				/form[@title~'^Do\ you\ want\ Google\ Smart\ ']/element[@accessiblename~'^Do\ you\ want\ Google\ Smart\ ']/container/container[2]/?/?/button[@accessiblename='Never']
+			</item>
+			<basepath>
+				/form[@title~'^Do\ you\ want\ Google\ Smart\ ']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAKFSURBVDhPrZJdSFNhHMaXQUFEBaZTZiV1EUQX
+FkRJ6c6m07lvdVPYlujSuygSlOiiEYSQfd10sZp2nFtiu7GPmyBtaoua86smltNzLKQIhGB5BurG
+eXrPOpqjj6se+PHe/H/P/+Xllfz3wCnJmDdrK5lazT3WrB5gK1XDbFWZn5znpk0lmeLYnzNjURWw
+NuMUEcFWl4NIYEylYIwlYAwKsCZljDGVOcTx9AyqC49EqlXfZ81EXCuoKksrYPQU5nQKzBmo86Im
+xunMuHDRvBDWyzEtCH+5AaMjBVo5ZrXFyXmNvEC0JZIDPU2Go676ZK+hCG/Jlg9k86duN16OLPDP
+wos8M/Ec8z4jvnhO4FvvcXB9hYg/LhoUdVLga3Ttf9CI2ktVGKo4CdbjxmU/B+PNOAwE25043s9E
+kQgokQwUIzlUhGSweBl+y+ZUQb6vsT/fdwYH6QbcqqEQGP26LutuEK7H0faIw3KkFXxICX5ECYQJ
+o7ptqYI8T31wr9eBfT4H9NfseBJegl4QRVlLaO3hsBK9CoyrCKWEEvBv1DtSBbKuur493gYICEWv
+J6dXKm//kjXtHPzBGJKRBlEuBT9GbhJVb00V5NL2Vll3PdZQP3ViILKIZi+HJvcSPIEYJibvp21P
+hBSzKVmIzGvLy+2yr+Z66rDG4d6zaBnuxJWgD00PW5AYq1iXMU4eM0Q1i/rPZHdYnTlElHad3oAd
+0rtWRF7o0uREiBrDlGWLqIqBZJO00+qS0nZkE1Egi7bBQRvAj5dvkBXv+AmlTLR+T1aH1ZLttkZ3
+01Zkumrw+ZVmWRBXR6jYSohqw5R8uzj67+ykjbuOtasKPvafOsSF5DnrnyYtEskPM43KINSheKEA
+AAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="container"
+		capname="container"
+		id="56b692ce-a8ce-4db4-a365-9ba2e7e9a243"
+		isrooted="True"
+		name="Dropdown"
+		refimgid="edfdb28a-3bb8-4d5d-b704-3c07a9b0b4ad"
+		refpath="/container[@caption='dropdown']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<basepath>
+				/container[@caption='dropdown']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAABhUlEQVQ4T8WQvUsCYRzHb++F/oSGiMiiV4qWakiiqWyJGiK0cmxw
+kUhtMHqzTuWC0KKh2ZBqsTSHlt6oNkENBF+OoJZCKlO/PY/PGaIXCQ19jw/3e7787sPdcX/OkCOC
+LiGOVruIZqsIhS2BJj6BFnuCnBOoJ3OdJQYFL6LR+ohOWxS9y7cQ/FHkBNVaL2qmfajUeFFF7nno
+uULNoHOD/gK1uit0zx1hdGwBeuEALpcLnPk4gkAkjrtwDPfheAGF5xiug1HcEC5DInzBJ0zMO8Hz
+PLid82fkky26fupo+me3mGDbL0pVqgw+c1DRgNbOBI6zOClp8gvFD5WSE8zw0id4o6SkkV8uhb5B
+GkrNBhPsnkZISSO3LAcVZKBUrzHBnueBlDRyy3JIgqkVJtj3hEhJ/3ZGIv0LdCeLwcklJnAeBvCa
+TOEl+UF4J7xJszz53W+BevEEPeMC2lUWifWCuZS24VV0qDbRN6JjAhpBEGAymWA0GsvCYDDAbDbD
+7XYzwT+G474AUqqnq7MiKz0AAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<item
+		addcaps="form,nativewindow"
+		capname="form"
+		id="b1d6a9d5-b815-4174-8b1e-d0bba111be33"
+		name="InsuranceWebAutomobileInstantQuote"
+		refimgid="95a74d53-07ac-46d6-875a-11d9c42bb0b5"
+		searchtimeout="30000ms">
+			/form[@title~'^InsuranceWeb:\ Automobile\ ']
+		</item>
 		<basepath>
 		</basepath>
 	</rootfolder>

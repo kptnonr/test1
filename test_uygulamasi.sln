@@ -2,12 +2,12 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 # Ranorex Studio 8.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test_uygulamasi", "test_uygulamasi\test_uygulamasi.csproj", "{7B707939-8014-4BE6-A20C-BF06017AF526}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{46698BC8-2386-4580-B6F9-937C9D7B8583}"
 	ProjectSection(SolutionItems) = postProject
 		Ranorex = .\Ranorex.rxsettings
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test_uygulamasi", "test_uygulamasi\test_uygulamasi.csproj", "{7B707939-8014-4BE6-A20C-BF06017AF526}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

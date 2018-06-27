@@ -79,30 +79,179 @@ namespace test_uygulamasi
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Website", "Opening web site 'http://facebook.com/' with browser 'chrome' in normal mode.", new RecordItemIndex(0));
-            Host.Current.OpenBrowser("http://facebook.com/", "chrome", "", false, false, false, false, false);
+            Report.Log(ReportLevel.Info, "Website", "Opening web site 'http://demo.borland.com/InsuranceWebExtJS/index.jsf' with browser 'chrome' in normal mode.", new RecordItemIndex(0));
+            Host.Current.OpenBrowser("http://demo.borland.com/InsuranceWebExtJS/index.jsf", "chrome", "", false, false, false, false, false);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'GoogleGoogleChrome.AddressAndSearchBar' at 168;3.", repo.GoogleGoogleChrome.AddressAndSearchBarInfo, new RecordItemIndex(1));
-            repo.GoogleGoogleChrome.AddressAndSearchBar.Click("168;3");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OPTiiMWebApplicationGoogleChrome.Element730569856' at 1078;221.", repo.OPTiiMWebApplicationGoogleChrome.Element730569856Info, new RecordItemIndex(1));
+            repo.OPTiiMWebApplicationGoogleChrome.Element730569856.Click("1078;221");
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key 'Ctrl+A' Press with focus on 'GoogleGoogleChrome.AddressAndSearchBar'.", repo.GoogleGoogleChrome.AddressAndSearchBarInfo, new RecordItemIndex(2));
-            Keyboard.PrepareFocus(repo.GoogleGoogleChrome.AddressAndSearchBar);
-            Keyboard.Press(System.Windows.Forms.Keys.A | System.Windows.Forms.Keys.Control, 30, Keyboard.DefaultKeyPressTime, 1, true);
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OPTiiMWebApplicationGoogleChrome.Element730569856' at 951;168.", repo.OPTiiMWebApplicationGoogleChrome.Element730569856Info, new RecordItemIndex(2));
+            repo.OPTiiMWebApplicationGoogleChrome.Element730569856.Click("951;168");
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'john' with focus on 'OPTiiMWebApplicationGoogleChrome'.", repo.OPTiiMWebApplicationGoogleChrome.SelfInfo, new RecordItemIndex(3));
+            repo.OPTiiMWebApplicationGoogleChrome.Self.PressKeys("john");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Back}onur' with focus on 'GoogleGoogleChrome.AddressAndSearchBar'.", repo.GoogleGoogleChrome.AddressAndSearchBarInfo, new RecordItemIndex(3));
-            repo.GoogleGoogleChrome.AddressAndSearchBar.PressKeys("{Back}onur");
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '.smith{LControlKey down}{RMenu down}{Qkey}{LControlKey up}{RMenu up}{Gkey}{Mkey}{LControlKey up}ail.com' with focus on 'InsuranceWebHomeGoogleChrome'.", repo.InsuranceWebHomeGoogleChromeInfo, new RecordItemIndex(4));
+            repo.InsuranceWebHomeGoogleChrome.PressKeys(".smith{LControlKey down}{RMenu down}{Qkey}{LControlKey up}{RMenu up}{Gkey}{Mkey}{LControlKey up}ail.com");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'ustunay.com' with focus on 'GoogleGoogleChrome.AddressAndSearchBar'.", repo.GoogleGoogleChrome.AddressAndSearchBarInfo, new RecordItemIndex(4));
-            repo.GoogleGoogleChrome.AddressAndSearchBar.PressKeys("ustunay.com");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OPTiiMWebApplicationGoogleChrome.Element730569856' at 947;192.", repo.OPTiiMWebApplicationGoogleChrome.Element730569856Info, new RecordItemIndex(5));
+            repo.OPTiiMWebApplicationGoogleChrome.Element730569856.Click("947;192");
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'john' with focus on 'InsuranceWebHomeGoogleChrome'.", repo.InsuranceWebHomeGoogleChromeInfo, new RecordItemIndex(6));
+            repo.InsuranceWebHomeGoogleChrome.PressKeys("john");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Return}' with focus on 'GoogleGoogleChrome.AddressAndSearchBar'.", repo.GoogleGoogleChrome.AddressAndSearchBarInfo, new RecordItemIndex(5));
-            repo.GoogleGoogleChrome.AddressAndSearchBar.PressKeys("{Return}");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OPTiiMWebApplicationGoogleChrome.Element730569856' at 884;220.", repo.OPTiiMWebApplicationGoogleChrome.Element730569856Info, new RecordItemIndex(7));
+            repo.OPTiiMWebApplicationGoogleChrome.Element730569856.Click("884;220");
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'DoYouWantGoogleSmartLockToSaveYo.Never' at 23;12.", repo.DoYouWantGoogleSmartLockToSaveYo.NeverInfo, new RecordItemIndex(8));
+            repo.DoYouWantGoogleSmartLockToSaveYo.Never.Click("23;12");
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OPTiiMWebApplicationGoogleChrome.Element730569856' at 889;108.", repo.OPTiiMWebApplicationGoogleChrome.Element730569856Info, new RecordItemIndex(9));
+            repo.OPTiiMWebApplicationGoogleChrome.Element730569856.Click("889;108");
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Dropdown' at 54;81.", repo.Dropdown.SelfInfo, new RecordItemIndex(10));
+            repo.Dropdown.Self.Click("54;81");
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OPTiiMWebApplicationGoogleChrome.Element730569856' at 489;96.", repo.OPTiiMWebApplicationGoogleChrome.Element730569856Info, new RecordItemIndex(11));
+            repo.OPTiiMWebApplicationGoogleChrome.Element730569856.Click("489;96");
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OPTiiMWebApplicationGoogleChrome.Element730569856' at 482;88.", repo.OPTiiMWebApplicationGoogleChrome.Element730569856Info, new RecordItemIndex(12));
+            repo.OPTiiMWebApplicationGoogleChrome.Element730569856.Click("482;88");
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OPTiiMWebApplicationGoogleChrome.Element730569856' at 904;91.", repo.OPTiiMWebApplicationGoogleChrome.Element730569856Info, new RecordItemIndex(13));
+            repo.OPTiiMWebApplicationGoogleChrome.Element730569856.Click("904;91");
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Dropdown' at 42;30.", repo.Dropdown.SelfInfo, new RecordItemIndex(14));
+            repo.Dropdown.Self.Click("42;30");
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OPTiiMWebApplicationGoogleChrome.Element730569856' at 731;282.", repo.OPTiiMWebApplicationGoogleChrome.Element730569856Info, new RecordItemIndex(15));
+            repo.OPTiiMWebApplicationGoogleChrome.Element730569856.Click("731;282");
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{NumPad1}{NumPad2}{NumPad3}' with focus on 'OPTiiMWebApplicationGoogleChrome'.", repo.OPTiiMWebApplicationGoogleChrome.SelfInfo, new RecordItemIndex(16));
+            repo.OPTiiMWebApplicationGoogleChrome.Self.PressKeys("{NumPad1}{NumPad2}{NumPad3}");
             Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OPTiiMWebApplicationGoogleChrome.Element730569856' at 696;327.", repo.OPTiiMWebApplicationGoogleChrome.Element730569856Info, new RecordItemIndex(17));
+            repo.OPTiiMWebApplicationGoogleChrome.Element730569856.Click("696;327");
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'adfasdf{LControlKey down}{RMenu down}{Qkey}{LControlKey up}{RMenu up}{LControlKey up}asdf.com' with focus on 'InsuranceWebAutomobileInstantQuote'.", repo.InsuranceWebAutomobileInstantQuoteInfo, new RecordItemIndex(18));
+            repo.InsuranceWebAutomobileInstantQuote.PressKeys("adfasdf{LControlKey down}{RMenu down}{Qkey}{LControlKey up}{RMenu up}{LControlKey up}asdf.com");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OPTiiMWebApplicationGoogleChrome.Element730569856' at 654;351.", repo.OPTiiMWebApplicationGoogleChrome.Element730569856Info, new RecordItemIndex(19));
+            repo.OPTiiMWebApplicationGoogleChrome.Element730569856.Click("654;351");
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OPTiiMWebApplicationGoogleChrome.Element730569856' at 681;385.", repo.OPTiiMWebApplicationGoogleChrome.Element730569856Info, new RecordItemIndex(20));
+            repo.OPTiiMWebApplicationGoogleChrome.Element730569856.Click("681;385");
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OPTiiMWebApplicationGoogleChrome.Element730569856' at 681;252.", repo.OPTiiMWebApplicationGoogleChrome.Element730569856Info, new RecordItemIndex(21));
+            repo.OPTiiMWebApplicationGoogleChrome.Element730569856.Click("681;252");
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Down item 'OPTiiMWebApplicationGoogleChrome.Element730569856' at 681;252.", repo.OPTiiMWebApplicationGoogleChrome.Element730569856Info, new RecordItemIndex(22));
+            repo.OPTiiMWebApplicationGoogleChrome.Element730569856.MoveTo("681;252");
+            Mouse.ButtonDown(System.Windows.Forms.MouseButtons.Left);
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Up item 'OPTiiMWebApplicationGoogleChrome.Element730569856' at 647;259.", repo.OPTiiMWebApplicationGoogleChrome.Element730569856Info, new RecordItemIndex(23));
+            repo.OPTiiMWebApplicationGoogleChrome.Element730569856.MoveTo("647;259");
+            Mouse.ButtonUp(System.Windows.Forms.MouseButtons.Left);
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{NumPad1}{NumPad9}' with focus on 'InsuranceWebAutomobileInstantQuote'.", repo.InsuranceWebAutomobileInstantQuoteInfo, new RecordItemIndex(24));
+            repo.InsuranceWebAutomobileInstantQuote.PressKeys("{NumPad1}{NumPad9}");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OPTiiMWebApplicationGoogleChrome.Element730569856' at 654;285.", repo.OPTiiMWebApplicationGoogleChrome.Element730569856Info, new RecordItemIndex(25));
+            repo.OPTiiMWebApplicationGoogleChrome.Element730569856.Click("654;285");
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OPTiiMWebApplicationGoogleChrome.Element730569856' at 653;331.", repo.OPTiiMWebApplicationGoogleChrome.Element730569856Info, new RecordItemIndex(26));
+            repo.OPTiiMWebApplicationGoogleChrome.Element730569856.Click("653;331");
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OPTiiMWebApplicationGoogleChrome.Element730569856' at 680;401.", repo.OPTiiMWebApplicationGoogleChrome.Element730569856Info, new RecordItemIndex(27));
+            repo.OPTiiMWebApplicationGoogleChrome.Element730569856.Click("680;401");
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Down item 'OPTiiMWebApplicationGoogleChrome.Element730569856' at 690;249.", repo.OPTiiMWebApplicationGoogleChrome.Element730569856Info, new RecordItemIndex(28));
+            repo.OPTiiMWebApplicationGoogleChrome.Element730569856.MoveTo("690;249");
+            Mouse.ButtonDown(System.Windows.Forms.MouseButtons.Left);
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Up item 'OPTiiMWebApplicationGoogleChrome.Element730569856' at 633;263.", repo.OPTiiMWebApplicationGoogleChrome.Element730569856Info, new RecordItemIndex(29));
+            repo.OPTiiMWebApplicationGoogleChrome.Element730569856.MoveTo("633;263");
+            Mouse.ButtonUp(System.Windows.Forms.MouseButtons.Left);
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{NumPad6}{NumPad0}' with focus on 'InsuranceWebAutomobileInstantQuote'.", repo.InsuranceWebAutomobileInstantQuoteInfo, new RecordItemIndex(30));
+            repo.InsuranceWebAutomobileInstantQuote.PressKeys("{NumPad6}{NumPad0}");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OPTiiMWebApplicationGoogleChrome.Element730569856' at 780;287.", repo.OPTiiMWebApplicationGoogleChrome.Element730569856Info, new RecordItemIndex(31));
+            repo.OPTiiMWebApplicationGoogleChrome.Element730569856.Click("780;287");
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OPTiiMWebApplicationGoogleChrome.Element730569856' at 698;345.", repo.OPTiiMWebApplicationGoogleChrome.Element730569856Info, new RecordItemIndex(32));
+            repo.OPTiiMWebApplicationGoogleChrome.Element730569856.Click("698;345");
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OPTiiMWebApplicationGoogleChrome.Element730569856' at 777;326.", repo.OPTiiMWebApplicationGoogleChrome.Element730569856Info, new RecordItemIndex(33));
+            repo.OPTiiMWebApplicationGoogleChrome.Element730569856.Click("777;326");
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OPTiiMWebApplicationGoogleChrome.Element730569856' at 676;440.", repo.OPTiiMWebApplicationGoogleChrome.Element730569856Info, new RecordItemIndex(34));
+            repo.OPTiiMWebApplicationGoogleChrome.Element730569856.Click("676;440");
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OPTiiMWebApplicationGoogleChrome.Element730569856' at 653;358.", repo.OPTiiMWebApplicationGoogleChrome.Element730569856Info, new RecordItemIndex(35));
+            repo.OPTiiMWebApplicationGoogleChrome.Element730569856.Click("653;358");
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OPTiiMWebApplicationGoogleChrome.Element730569856' at 694;425.", repo.OPTiiMWebApplicationGoogleChrome.Element730569856Info, new RecordItemIndex(36));
+            repo.OPTiiMWebApplicationGoogleChrome.Element730569856.Click("694;425");
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Down item 'OPTiiMWebApplicationGoogleChrome.Element730569856' at 673;256.", repo.OPTiiMWebApplicationGoogleChrome.Element730569856Info, new RecordItemIndex(37));
+            repo.OPTiiMWebApplicationGoogleChrome.Element730569856.MoveTo("673;256");
+            Mouse.ButtonDown(System.Windows.Forms.MouseButtons.Left);
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Up item 'OPTiiMWebApplicationGoogleChrome.Element730569856' at 646;256.", repo.OPTiiMWebApplicationGoogleChrome.Element730569856Info, new RecordItemIndex(38));
+            repo.OPTiiMWebApplicationGoogleChrome.Element730569856.MoveTo("646;256");
+            Mouse.ButtonUp(System.Windows.Forms.MouseButtons.Left);
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{NumPad1}{NumPad9}{NumPad9}{NumPad7}' with focus on 'InsuranceWebAutomobileInstantQuote'.", repo.InsuranceWebAutomobileInstantQuoteInfo, new RecordItemIndex(39));
+            repo.InsuranceWebAutomobileInstantQuote.PressKeys("{NumPad1}{NumPad9}{NumPad9}{NumPad7}");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OPTiiMWebApplicationGoogleChrome.Element730569856' at 686;424.", repo.OPTiiMWebApplicationGoogleChrome.Element730569856Info, new RecordItemIndex(40));
+            repo.OPTiiMWebApplicationGoogleChrome.Element730569856.Click("686;424");
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OPTiiMWebApplicationGoogleChrome.Element730569856' at 636;533.", repo.OPTiiMWebApplicationGoogleChrome.Element730569856Info, new RecordItemIndex(41));
+            repo.OPTiiMWebApplicationGoogleChrome.Element730569856.Click("636;533");
+            Delay.Milliseconds(200);
             
         }
 
